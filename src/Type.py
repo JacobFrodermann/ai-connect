@@ -1,6 +1,6 @@
 import pandas as pd
 from textblob import TextBlob
-from typing import List, TypedDict, Any, Set, Optional
+from typing import List, TypedDict, Set
 
 # --- Core Data Structures (Updated for Parser needs) ---
 
@@ -39,11 +39,23 @@ class RawProblem:
     Updated to include 'text' which comes from the 'puzzle' column in ZebraLogicBench.
     """
     ID: str
-    text: str 
+    text: str
 
-    def __init__(self, id: str, text: str):
+    """
+    Gridmode specific
+    """
+    size: str
+    
+    """"
+    Multiple Choice Mode specific
+    """
+    question: str
+    choiches: str
+
+    def __init__(self, id: str, text: str, size: str):
         self.ID = id
         self.text = text
+        self.size = size
 
 class ParsedProblem:
     """
@@ -53,16 +65,23 @@ class ParsedProblem:
     ID: str
     constraints: List[Constraint]
     entities: Set[str] # Valid entities found (e.g., 'Englishman', 'Red', 'Dog')
+    
+    """
+    Gridmode specific
+    """
+    size: tuple[int, int]
 
-    def __init__(self, id: str):
+    """"
+    Multiple Choice Mode specific
+    """
+    question: List[str]
+    choiches: List[str]
+
+    def __init__(self, id: str, width: int, height: int):
         self.ID = id
         self.constraints = []
         self.entities = set()
-
-class Importer:
-    def next(self) -> RawProblem:
-        # This would read from the 'puzzle' column of the dataset
-        pass
+        self.size = (width, height)
 
 # --- THE PARSER (Your Part) ---
 
@@ -71,6 +90,7 @@ class Parser:
     Responsible for converting raw natural language text into structured Constraints
     using an NLP pipeline (Pandas + TextBlob).
     """
+        
     def parse(self, raw: RawProblem) -> ParsedProblem:
         parsed = ParsedProblem(raw.ID)
         
@@ -141,6 +161,21 @@ class Parser:
         parsed_obj.entities.add(entity1)
         parsed_obj.entities.add(entity2)
         parsed_obj.constraints.append(ValueConstraint(entity1, entity2))
+    
+    def parseGridmode(self, raw: RawProblem) -> ParsedProblem:
+        parsed = self.parse(raw)
+
+        sp = raw.size.split('*')
+        parsed.size = (int(sp[0]), int(sp[1]))
+        
+        return parsed
+        
+    def parseMultipleChoice(self, raw: RawProblem) -> ParsedProblem:
+        parsed = self.parse(raw)
+
+        # TODO
+         
+        return parsed
 
 class Solver:
     def solve(self, problem: ParsedProblem) -> Solution:
