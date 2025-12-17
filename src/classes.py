@@ -68,6 +68,10 @@ class ParsedProblem:
         self.entities: dict[str, list[str]] = {}
         self.size = (width, height)
 
+        # Initialize with default values to prevent errors
+        self.requestedEntity = ""
+        self.houseNumber = 0
+
 class Solution:
     # List Index = House Number
     ppl: List[Person] = []
