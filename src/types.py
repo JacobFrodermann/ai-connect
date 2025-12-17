@@ -62,7 +62,7 @@ class ParsedProblem:
     def __init__(self, id: str, width: int, height: int):
         self.ID = id
         self.constraints = []
-        self.entities = set()
+        self.entities: dict[str, list[str]] = {}
         self.size = (width, height)
 
 class Solution:
