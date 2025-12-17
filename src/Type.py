@@ -33,6 +33,50 @@ class ValueConstraint(Constraint):
     def __repr__(self):
         return f"Constraint: [{self.subject}] <--> [{self.value}]"
 
+class ImplicationConstraint(Constraint):
+    def __init__(self, if_key: str, if_value: str, then_key: str, then_value: str):
+        self.if_key = if_key
+        self.if_value = if_value
+        self.then_key = then_key
+        self.then_value = then_value
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        for person in solution.var:
+            props = person["properties"]
+            if props.get(self.if_key) == self.if_value:
+                if props.get(self.then_key) != self.then_value:
+                    return False
+        return True
+
+
+class LeftRightConstraint(Constraint):
+    def __init__(self, key1: str, value1: str, key2: str, value2: str, direction: str):
+        self.key1 = key1
+        self.value1 = value1
+        self.key2 = key2
+        self.value2 = value2
+        self.direction = direction  # "left" or "right"
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        index1 = None
+        index2 = None
+
+        for i, person in enumerate(solution.var):
+            props = person["properties"]
+            if props.get(self.key1) == self.value1:
+                index1 = i
+            if props.get(self.key2) == self.value2:
+                index2 = i
+
+        if index1 is None or index2 is None:
+            return True
+
+        if self.direction == "left":
+            return index1 == index2 - 1
+        else:
+            return index1 == index2 + 1
+
+
 class RawProblem:
     """
     Holds the raw data ingested from the dataset.
@@ -153,6 +197,43 @@ class Parser:
             # Avoid self-referencing (e.g., "The house is a house")
             if subject != value:
                 self._add_constraint(parsed_obj, subject, value)
+
+        # -------------------------------
+    # NEW: LEFT / RIGHT CONSTRAINT
+    # -------------------------------
+    words = [w for w, _ in tags]
+
+    if "left" in words or "right" in words:
+        direction = "left" if "left" in words else "right"
+        nouns_lr = [w for w, t in tags if t.startswith("NN")]
+
+        if len(nouns_lr) >= 2:
+            parsed_obj.constraints.append(
+                LeftRightConstraint(
+                    key1="color",
+                    value1=nouns_lr[0],
+                    key2="color",
+                    value2=nouns_lr[1],
+                    direction=direction
+                )
+            )
+
+    # -------------------------------
+    # NEW: IMPLICATION CONSTRAINT
+    # -------------------------------
+    if "if" in words and "then" in words:
+        nouns_impl = [w for w, t in tags if t.startswith("NN")]
+
+        if len(nouns_impl) >= 4:
+            parsed_obj.constraints.append(
+                ImplicationConstraint(
+                    if_key="attr1",
+                    if_value=nouns_impl[0],
+                    then_key="attr2",
+                    then_value=nouns_impl[1]
+                )
+            )
+
 
     def _add_constraint(self, parsed_obj: ParsedProblem, entity1: str, entity2: str):
         """
