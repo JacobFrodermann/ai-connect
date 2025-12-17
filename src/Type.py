@@ -77,6 +77,52 @@ class LeftRightConstraint(Constraint):
             return index1 == index2 + 1
 
 
+class UniqueConstraint(Constraint):
+    """
+    Ensures that a specific property value appears exactly once across all persons.
+    """
+    def __init__(self, property_name: str, value: str):
+        self.property_name = property_name
+        self.value = value
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        # Logic to be implemented by Solver team
+        return True
+    
+    def __repr__(self):
+        return f"UniqueConstraint: [{self.property_name}]=[{self.value}] must be unique"
+
+class NeighborConstraint(Constraint):
+    """
+    Ensures that two persons with specific properties are neighbors (adjacent positions).
+    """
+    def __init__(self, subject: str, neighbor: str):
+        self.subject = subject
+        self.neighbor = neighbor
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        # Logic to be implemented by Solver team
+        return True
+    
+    def __repr__(self):
+        return f"NeighborConstraint: [{self.subject}] next to [{self.neighbor}]"
+
+class IsNotConstraint(Constraint):
+    """
+    Ensures that a subject does not have a specific value.
+    """
+    def __init__(self, subject: str, value: str):
+        self.subject = subject
+        self.value = value
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        # Logic to be implemented by Solver team
+        return True
+    
+    def __repr__(self):
+        return f"IsNotConstraint: [{self.subject}] is NOT [{self.value}]"
+
+
 class RawProblem:
     """
     Holds the raw data ingested from the dataset.
