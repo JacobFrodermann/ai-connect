@@ -12,7 +12,7 @@ class Constraint:
     """
     Base interface for all logical rules.
     """
-    def isSatisfied(self, solution: Solution) -> bool:
+    def isSatisfied(self, solution: "Solution") -> bool:
         return True
 
 
@@ -75,14 +75,14 @@ class Solution:
 # --- THE PARSER (Your Part) ---
 
 # --- verification (Not part of the class file, but for testing) ---
-if __name__ == "__main__":
-    # Simulating data from the ZebraLogicBench 'puzzle' column
-    sample_puzzle_text = "There are 5 houses. The Englishman lives in the red house. The Spaniard owns the dog."
+#if __name__ == "__main__":
+#    # Simulating data from the ZebraLogicBench 'puzzle' column
+ #   sample_puzzle_text = "There are 5 houses. The Englishman lives in the red house. The Spaniard owns the dog."
+ #
+ #   raw = RawProblem("lgp-test-5x6-16", sample_puzzle_text)
+ #   parser = Parser()
+ #   result = parser.parse(raw)
     
-    raw = RawProblem("lgp-test-5x6-16", sample_puzzle_text)
-    parser = Parser()
-    result = parser.parse(raw)
-    
-    print(f"Parsed ID: {result.ID}")
-    print(f"Entities: {result.entities}")
-    print(f"Constraints: {result.constraints}")
+ #   print(f"Parsed ID: {result.ID}")
+ #   print(f"Entities: {result.entities}")
+ #   print(f"Constraints: {result.constraints}")

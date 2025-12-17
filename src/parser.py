@@ -1,4 +1,11 @@
-from types import RawProblem, ParsedProblem, ValueConstraint, LeftRightConstraint, ImplicationConstraint
+from typing import List
+
+from textblob import TextBlob
+
+from src.types import RawProblem, ParsedProblem, Constraint
+from src.constraints import ValueConstraint, LeftRightConstraint, ImplicationConstraint
+import pandas as pd
+import unittest
 
 class Parser:
     """
@@ -129,3 +136,15 @@ class Parser:
         parsed.houseNumber = int(raw.question.split(' ')[-1].removesuffix('?'))
          
         return parsed
+    
+
+class TestParser(unittest.TestCase):
+    def setUp(self):
+        self.parser = Parser()
+
+    def test_parse_gridmode(self):
+        raw = RawProblem(id="lgp-test-2x3-13", size="2*3",text="There are 2 houses, numbered 1 to 2 from left to right, as seen from across the street. Each house is occupied by a different person. Each house has a unique attribute for each of the following characteristics:\n - Each person has a unique name: `Arnold`, `Eric`\n - Each person has a unique level of education: `high school`, `associate`\n - The mothers' names in different houses are unique: `Aniya`, `Holly`\n\n## Clues:\n1. The person with an associate's degree is in the first house.\n2. The person whose mother's name is Holly is Arnold.\n3. The person whose mother's name is Holly is not in the second house.\n")
+        #"solution":{"header":["House","Name","Education","Mother"],"rows":[["1","Arnold","associate","Holly"],["2","Eric","high school","Aniya"]]},"created_at":"2024-07-03T21:21:29.204735"}
+        parsed = self.parser.parseGridmode(raw)
+        
+        self.assertEqual(parsed.size, (2, 3))
