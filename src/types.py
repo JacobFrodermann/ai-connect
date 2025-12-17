@@ -1,5 +1,3 @@
-import pandas as pd
-from textblob import TextBlob
 from typing import List, TypedDict, Set
 
 # --- Core Data Structures (Updated for Parser needs) ---

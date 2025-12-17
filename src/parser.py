@@ -148,3 +148,4 @@ class TestParser(unittest.TestCase):
         parsed = self.parser.parseGridmode(raw)
         
         self.assertEqual(parsed.size, (2, 3))
+        self.assertIn("mothers' name", parsed.entities)
