@@ -1,4 +1,4 @@
-from typing import List, TypedDict, Set
+from typing import List, TypedDict, Set, Dict
 
 # --- Core Data Structures (Updated for Parser needs) ---
 
@@ -34,10 +34,13 @@ class RawProblem:
     question: str
     choiches: str
 
-    def __init__(self, id: str, text: str, size: str, question: str, choiches: str):
+    def __init__(self, id: str, text: str, size: str, question: str = "", choiches: str = ""):
         self.ID = id
         self.text = text
         self.size = size
+        # Make these optional to prevent errors.
+        self.question = question
+        self.choiches = choiches
 
 class ParsedProblem:
     """
@@ -46,7 +49,7 @@ class ParsedProblem:
     """
     ID: str
     constraints: List[Constraint]
-    entities: Set[str] # Valid entities found (e.g., 'Englishman', 'Red', 'Dog')
+    entities: Dict[str, List[str]] # Valid entities found (e.g., 'Englishman', 'Red', 'Dog')
     
     """
     Gridmode specific
@@ -64,6 +67,10 @@ class ParsedProblem:
         self.constraints = []
         self.entities: dict[str, list[str]] = {}
         self.size = (width, height)
+
+        # Initialize with default values to prevent errors
+        self.requestedEntity = ""
+        self.houseNumber = 0
 
 class Solution:
     # List Index = House Number
