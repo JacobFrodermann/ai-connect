@@ -1,4 +1,4 @@
-from Type import RawProblem, ParsedProblem, ValueConstraint, LeftRightConstraint, ImplicationConstraint
+from types import RawProblem, ParsedProblem, ValueConstraint, LeftRightConstraint, ImplicationConstraint
 
 class Parser:
     """
