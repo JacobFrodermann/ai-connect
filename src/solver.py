@@ -1,3 +1,5 @@
+import unittest
+
 from classes import ParsedProblem, Solution
 class Solver:
     """
@@ -64,3 +66,7 @@ class Solver:
                 seen.add(value)
 
         return True
+
+class SolverTest(unittest.TestCase):
+    def testSolveBasic(self):
+        pass
