@@ -120,7 +120,7 @@ class Parser:
             subj = found_entities[0][0]
             val1 = found_entities[1][0]
             val2 = found_entities[2][0]
-            
+
             parsed_obj.constraints.append(BetweenConstraint(subject=subj, value1=val1, value2=val2))
             return
         
@@ -141,21 +141,27 @@ class Parser:
         
         # Case A: Neighbor Logic (e.g., "The blue house is next to the red house")
         if is_neighbor:
-            con = NeighborConstraint(subject=val1, neighbor=val2)
-            parsed_obj.constraints.append(con)
-            return
+            if is_negative:
+                print(f"Negative neighbor logic not supported yet: {words}")
+            else:
+                con = NeighborConstraint(subject=val1, neighbor=val2)
+                parsed_obj.constraints.append(con)
+                return
 
         # Case B: Direction Logic (e.g., "The white house is to the left of the green house")
         if direction:
-            con = LeftRightConstraint(
-                key1=cat1,   
-                value1=val1, 
-                key2=cat2, 
-                value2=val2, 
-                direction=direction
-            )
-            parsed_obj.constraints.append(con)
-            return
+            if is_negative:
+                print(f"Negative direction logic not supported yet: {words}")
+            else:
+                con = LeftRightConstraint(
+                    key1=cat1,   
+                    value1=val1, 
+                    key2=cat2, 
+                    value2=val2, 
+                    direction=direction
+                )
+                parsed_obj.constraints.append(con)
+                return
 
         # Case C: Negative Logic (e.g., "Bob does NOT live in the yellow house")
         if is_negative:
