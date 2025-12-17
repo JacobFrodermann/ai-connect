@@ -10,11 +10,27 @@ class ValueConstraint(Constraint):
         self.value = value
 
     def isSatisfied(self, solution: Solution) -> bool:
-        # Logic to be implemented by Solver team
-        return True
+        subject_index = None
+        value_index = None
+
+        for i, person in enumerate(solution.var):
+            props = person.get("properties", {})
+
+            if self.subject in props.values():
+                subject_index = i
+            if self.value in props.values():
+                value_index = i
+
+        # If one or both not assigned yet → cannot be violated
+        if subject_index is None or value_index is None:
+            return True
+
+        # They must refer to the same person
+        return subject_index == value_index
     
     def __repr__(self):
         return f"Constraint: [{self.subject}] <--> [{self.value}]"
+
 
 class ImplicationConstraint(Constraint):
     def __init__(self, if_key: str, if_value: str, then_key: str, then_value: str):
@@ -69,11 +85,16 @@ class UniqueConstraint(Constraint):
         self.value = value
 
     def isSatisfied(self, solution: Solution) -> bool:
-        # Logic to be implemented by Solver team
+        count = 0
+
+        for person in solution.var:
+            props = person.get("properties", {})
+            if props.get(self.property_name) == self.value:
+                count += 1
+                if count > 1:
+                    return False
+
         return True
-    
-    def __repr__(self):
-        return f"UniqueConstraint: [{self.property_name}]=[{self.value}] must be unique"
 
 class NeighborConstraint(Constraint):
     """
@@ -84,11 +105,23 @@ class NeighborConstraint(Constraint):
         self.neighbor = neighbor
 
     def isSatisfied(self, solution: Solution) -> bool:
-        # Logic to be implemented by Solver team
-        return True
-    
-    def __repr__(self):
-        return f"NeighborConstraint: [{self.subject}] next to [{self.neighbor}]"
+        index_subject = None
+        index_neighbor = None
+
+        for i, person in enumerate(solution.var):
+            props = person.get("properties", {})
+
+            if self.subject in props.values():
+                index_subject = i
+            if self.neighbor in props.values():
+                index_neighbor = i
+
+        # Not fully assigned yet → cannot be violated
+        if index_subject is None or index_neighbor is None:
+            return True
+
+        return abs(index_subject - index_neighbor) == 1
+
 
 class IsNotConstraint(Constraint):
     """
@@ -99,8 +132,11 @@ class IsNotConstraint(Constraint):
         self.value = value
 
     def isSatisfied(self, solution: Solution) -> bool:
-        # Logic to be implemented by Solver team
+        for person in solution.var:
+            props = person.get("properties", {})
+
+            if self.subject in props.values():
+                if self.value in props.values():
+                    return False
+
         return True
-    
-    def __repr__(self):
-        return f"IsNotConstraint: [{self.subject}] is NOT [{self.value}]"
