@@ -1,6 +1,6 @@
 from typing import List
 from textblob import TextBlob
-from types import *
+from classes import *
 from constraints import *
 import pandas as pd
 import unittest
