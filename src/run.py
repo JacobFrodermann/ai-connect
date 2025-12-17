@@ -3,11 +3,10 @@ import sys
 import pandas as pd
 import pyarrow.parquet as pq
 
-import classes
 from argparse import ArgumentParser
 from parser import Parser
 from solver import Solver
-from src.classes import RawProblem, Solution
+from classes import RawProblem, Solution
 import json
 
 

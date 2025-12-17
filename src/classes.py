@@ -34,10 +34,13 @@ class RawProblem:
     question: str
     choiches: str
 
-    def __init__(self, id: str, text: str, size: str, question: str, choiches: str):
+    def __init__(self, id: str, text: str, size: str, question: str = "", choiches: str = ""):
         self.ID = id
         self.text = text
         self.size = size
+        # Make these optional to prevent errors.
+        self.question = question
+        self.choiches = choiches
 
 class ParsedProblem:
     """
