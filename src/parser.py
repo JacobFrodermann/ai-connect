@@ -183,3 +183,6 @@ class TestParser(unittest.TestCase):
         
         self.assertEqual(parsed.size, (2, 3))
         self.assertIn("mothers' name", parsed.entities)
+        self.assertIn("level of education", parsed.entities)
+
+        expectedConstrain = IsNotConstraint()
