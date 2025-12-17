@@ -1,11 +1,10 @@
 from typing import List
-
 from textblob import TextBlob
-
-from src.classes import RawProblem, ParsedProblem, Constraint
-from src.constraints import ValueConstraint, LeftRightConstraint, ImplicationConstraint
+from classes import *
+from constraints import *
 import pandas as pd
 import unittest
+import re
 
 class Parser:
     """
@@ -14,7 +13,17 @@ class Parser:
     """
         
     def parse(self, raw: RawProblem) -> ParsedProblem:
-        parsed = ParsedProblem(raw.ID)
+
+        w, h = 0, 0
+
+        if hasattr(raw, "size") and isinstance(raw.size, str) and "*" in raw.size:
+            parts = raw.size.split("*")
+            w, h = int(parts[0]), int(parts[1])
+
+        parsed = ParsedProblem(raw.ID, w, h)
+
+        # Read the headings (Colors: red...) and the entities dictionary
+        self.extract_entities_and_categories(raw.text, parsed)
         
         # 1. Ingestion: Load text into DataFrame for vectorized processing
         # We split by '.' to analyze the puzzle sentence-by-sentence.
@@ -50,75 +59,83 @@ class Parser:
             self._extract_constraints(row["tags"], parsed)
             
         return parsed
-
+    
+    def get_category_of_entity(self, entity_name: str, parsed_obj: ParsedProblem) -> str:
+        
+        # It finds which category (e.g., 'colors') the given word (e.g., 'red') belongs to. 
+        for category, values in parsed_obj.entities.items():
+            if entity_name in values:
+                return category
+        return "unknown"
+    
     def _extract_constraints(self, tags: List[tuple], parsed_obj: ParsedProblem):
         """
-        Analyzes POS tags to extract logical relationships.
+        Analyzes the sentence to find logical rules.
         """
-        # Extract potential entities (Nouns) and properties (Adjectives/Nouns)
-        # NN* captures NN, NNS, NNP, NNPS
-        nouns = [word for word, tag in tags if tag.startswith('NN')]
-        adjectives = [word for word, tag in tags if tag.startswith('JJ')]
+        # 1. Prepare words list for easy searching
+        words = [w.lower() for w, _ in tags]
         
-        # Heuristic 1: Attribution (Subject + Adjective)
-        # Example: "The Englishman(NN) lives in the Red(JJ) house."
-        if len(nouns) >= 1 and len(adjectives) >= 1:
-            subject = nouns[0]
-            value = adjectives[0]
-            self._add_constraint(parsed_obj, subject, value)
+        # 2. Check for special keywords (Operators)
+        is_negative = "not" in words or "n't" in words or "neither" in words
+        is_neighbor = "next" in words or "beside" in words or "adjacent" in words
+        
+        
+        direction = None
+        if "left" in words: direction = "left"
+        elif "right" in words: direction = "right"
 
-        # Heuristic 2: Direct Association (Noun + Noun)
-        # Example: "The Spaniard(NN) owns the Dog(NN)."
-        elif len(nouns) >= 2:
-            subject = nouns[0]
-            value = nouns[1]
-            # Avoid self-referencing (e.g., "The house is a house")
-            if subject != value:
-                self._add_constraint(parsed_obj, subject, value)
+        # 3. Find valid entities (names, colors, etc.) in the sentence
+        found_entities = []
+        for word, tag in tags:
+            category = self.get_category_of_entity(word, parsed_obj)
+            
+            if category != "unknown":
+                found_entities.append((word, category))
 
-        # -------------------------------
-    # NEW: LEFT / RIGHT CONSTRAINT
-    # -------------------------------
-    words = [w for w, _ in tags]
 
-    if "left" in words or "right" in words:
-        direction = "left" if "left" in words else "right"
-        nouns_lr = [w for w, t in tags if t.startswith("NN")]
+        if len(found_entities) < 2:
+            return
 
-        if len(nouns_lr) >= 2:
-            parsed_obj.constraints.append(
-                LeftRightConstraint(
-                    key1="color",
-                    value1=nouns_lr[0],
-                    key2="color",
-                    value2=nouns_lr[1],
-                    direction=direction
-                )
+        # Get the first two entities found
+        val1, cat1 = found_entities[0]
+        val2, cat2 = found_entities[1]
+
+        # 4. Create the correct Constraint object based on keywords found
+        
+        # Case A: Neighbor Logic (e.g., "The blue house is next to the red house")
+        if is_neighbor:
+            con = NeighborConstraint(subject=val1, neighbor=val2)
+            parsed_obj.constraints.append(con)
+            return
+
+        # Case B: Direction Logic (e.g., "The white house is to the left of the green house")
+        if direction:
+            con = LeftRightConstraint(
+                key1=cat1,   
+                value1=val1, 
+                key2=cat2, 
+                value2=val2, 
+                direction=direction
             )
+            parsed_obj.constraints.append(con)
+            return
 
-    # -------------------------------
-    # NEW: IMPLICATION CONSTRAINT
-    # -------------------------------
-    if "if" in words and "then" in words:
-        nouns_impl = [w for w, t in tags if t.startswith("NN")]
+        # Case C: Negative Logic (e.g., "Bob does NOT live in the yellow house")
+        if is_negative:
+            con = IsNotConstraint(subject=val1, value=val2)
+            parsed_obj.constraints.append(con)
+            return
 
-        if len(nouns_impl) >= 4:
-            parsed_obj.constraints.append(
-                ImplicationConstraint(
-                    if_key="attr1",
-                    if_value=nouns_impl[0],
-                    then_key="attr2",
-                    then_value=nouns_impl[1]
-                )
-            )
+        # Case D: Standard Assignment (e.g., "Alice lives in the blue house")
+        # Default case if no other special keywords are found
+        con = ValueConstraint(subject=val1, value=val2)
+        parsed_obj.constraints.append(con)
 
 
     def _add_constraint(self, parsed_obj: ParsedProblem, entity1: str, entity2: str):
         """
         Helper to add a constraint and register entities.
         """
-        parsed_obj.entities.add(entity1)
-        parsed_obj.entities.add(entity2)
         parsed_obj.constraints.append(ValueConstraint(entity1, entity2))
     
     def parseGridmode(self, raw: RawProblem) -> ParsedProblem:
@@ -137,6 +154,18 @@ class Parser:
          
         return parsed
     
+    def extract_entities_and_categories(self, text: str, parsed_obj: ParsedProblem):
+        
+        #'Colors: red, blue.' -> {'colors': ['red', 'blue']}
+        pattern = r"([A-Z][a-zA-Z]+):\s*([^.\n]+)"
+        matches = re.findall(pattern, text)
+        for category, values in matches:
+            category_name = category.lower().strip()
+           # skip the word 'Clues' so they don't mistake it for a category.
+            if category_name == "clues":
+                continue
+            val_list = [v.strip().lower() for v in values.split(",")]
+            parsed_obj.entities[category_name] = val_list
 
 class TestParser(unittest.TestCase):
     def setUp(self):
