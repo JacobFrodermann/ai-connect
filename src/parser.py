@@ -74,6 +74,14 @@ class Parser:
         """
         # 1. Prepare words list for easy searching
         words = [w.lower() for w, _ in tags]
+
+        ordinals = {
+            "first": "1", "1st": "1",
+            "second": "2", "2nd": "2",
+            "third": "3", "3rd": "3", "middle": "3",
+            "fourth": "4", "4th": "4",
+            "fifth": "5", "5th": "5"
+        }
         
         # 2. Check for special keywords (Operators)
         is_negative = "not" in words or "n't" in words or "neither" in words
@@ -91,6 +99,9 @@ class Parser:
             
             if category != "unknown":
                 found_entities.append((word, category))
+
+            if word in ordinals:
+                found_entities.append((ordinals[word], "house"))
 
 
         if len(found_entities) < 2:

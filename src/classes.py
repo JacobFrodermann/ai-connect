@@ -1,4 +1,4 @@
-from typing import List, TypedDict, Set
+from typing import List, TypedDict, Set, Dict
 
 # --- Core Data Structures (Updated for Parser needs) ---
 
@@ -49,7 +49,7 @@ class ParsedProblem:
     """
     ID: str
     constraints: List[Constraint]
-    entities: Set[str] # Valid entities found (e.g., 'Englishman', 'Red', 'Dog')
+    entities: Dict[str, List[str]] # Valid entities found (e.g., 'Englishman', 'Red', 'Dog')
     
     """
     Gridmode specific
