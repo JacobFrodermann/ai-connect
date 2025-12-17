@@ -161,10 +161,15 @@ class Parser:
         matches = re.findall(pattern, text)
         for category, values in matches:
             category_name = category.lower().strip()
-           # skip the word 'Clues' so they don't mistake it for a category.
+
+            # skip the word 'Clues' so they don't mistake it for a category.
             if category_name == "clues":
                 continue
-            val_list = [v.strip().lower() for v in values.split(",")]
+            
+            # (e.g. red and green -> red, green)
+            cleaned_values = values.replace(" and ", ", ")
+
+            val_list = [v.strip().lower() for v in cleaned_values.split(",")]
             parsed_obj.entities[category_name] = val_list
 
 class TestParser(unittest.TestCase):
