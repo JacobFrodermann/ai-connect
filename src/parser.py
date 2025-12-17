@@ -2,7 +2,7 @@ from typing import List
 
 from textblob import TextBlob
 
-from src.types import RawProblem, ParsedProblem, Constraint
+from src.classes import RawProblem, ParsedProblem, Constraint
 from src.constraints import ValueConstraint, LeftRightConstraint, ImplicationConstraint
 import pandas as pd
 import unittest
@@ -132,7 +132,7 @@ class Parser:
     def parseMultipleChoice(self, raw: RawProblem) -> ParsedProblem:
         parsed = self.parse(raw)
 
-        parsed.requestedProperty = raw.question.split(' ')[2]
+        parsed.requestedEntity = raw.question.split(' ')[2]
         parsed.houseNumber = int(raw.question.split(' ')[-1].removesuffix('?'))
          
         return parsed
