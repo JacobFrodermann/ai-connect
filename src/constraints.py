@@ -146,6 +146,33 @@ class BetweenConstraint(Constraint):
 
 
 class OrConstraint(Constraint):
-    pass
+    """
+    Ensures that at least one of two conditions holds.
+    """
+    def __init__(self, option1: str, option2: str):
+        self.option1 = option1
+        self.option2 = option2
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        option1_found = False
+        option2_found = False
+
+        for person in solution.var:
+            props = person.get("properties", {})
+
+            if self.option1 in props.values():
+                option1_found = True
+            if self.option2 in props.values():
+                option2_found = True
+
+        # If at least one option is present → satisfied
+        if option1_found or option2_found:
+            return True
+
+        # Neither assigned yet → cannot be violated
+        return True
+
+    def __repr__(self):
+        return f"OrConstraint: [{self.option1}] OR [{self.option2}]"
 
 
