@@ -1,44 +1,76 @@
+import sys
+
 import pandas as pd
 import pyarrow.parquet as pq
 
-import types 
+import classes
 from argparse import ArgumentParser
 from parser import Parser
 from solver import Solver
+from src.classes import RawProblem, Solution
+import json
 
 
 def read_row_from_parquet(path: str, row_index: int):
-    df = pd.read_parquet(path)  # requires pyarrow or fastparquet
-    try:
-        row = df.iloc[row_index]
-    except IndexError:
-        raise IndexError(f"Row index {row_index} out of range (0..{len(df)-1}).")
-    return row.to_dict()
+	df = pd.read_parquet(path)  # requires pyarrow or fastparquet
+	try:
+		row = df.iloc[row_index]
+	except IndexError:
+		raise IndexError(f"Row index {row_index} out of range (0..{len(df)-1}).")
+	return row.to_dict()
+
+
+def readGridMode(row) -> RawProblem:
+	return RawProblem(row["id"], row["puzzle"], size=row["size"])
+def readMC(row) -> RawProblem :
+	return  RawProblem(row["id"], row["text"], size=row["size"], question=row["question"], choiches=row["choiches"])
+
+def answerGridMode(sol: Solution):
+    header = list(sol.entities)
+    asDict = {
+        "header": header,
+        "rows": []
+    }
+    for i in range(len(sol.ppl)):
+        row = []
+        for entity in header:
+            row.append(sol.ppl[i].properties[entity])
+
+    print(f"{sol.ID}|{json.dumps(asDict)}|{sol.steps}")
+    pass
 
 def main():
-    argParse = ArgumentParser()
-    argParse.add_argument("-f", "--file", type=str, help="Path to the Parquet file containing problems.", dest="file")
-    argParse.add_argument("-gm", "--GridMode", type=bool, dest="grid_mode")
-    argParse.add_argument("-mc", "--MultipleChoice", type=bool, dest="multiple_choice")
+	argParse = ArgumentParser()
+	argParse.add_argument("-f", "--file", type=str, help="Path to the Parquet file containing problems.", dest="file")
+	argParse.add_argument("-gm", "--GridMode", type=bool, dest="grid_mode")
+	argParse.add_argument("-mc", "--MultipleChoice", type=bool, dest="multiple_choice")
 
-    args = argParse.parse_args()
+	args = argParse.parse_args()
 
-    df = pd.DataFrame()
-    rawProblems = pd.Series(dtype=object)
-    if (args.grid_mode):
-        df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas()
-        rawProblems = df.apply(lambda row: types.RawProblem(row["id"], row["puzzle"], size=row["size"]), axis=1)
-    elif (args.multiple_choice):
-        df: pd.DataFrame = pq.read_table(args.file, columns=["id", "text", "size", "question", "choiches"]).to_pandas()
-        rawProblems = df.apply(lambda row: types.RawMultipleChoiceProblem(row["id"], row["text"], size=row["size"], question=row["question"], choiches=row["choiches"]), axis=1)
+	if not (args.grid_mode or args.multiple_choice):
+		print("no mode provided")
+		sys.exit(1)
 
-    parser = Parser()
+	df = pd.DataFrame()
+	rawProblems = pd.Series(dtype=object)
+	if (args.grid_mode):
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas()
+		rawProblems = df.apply(readGridMode , axis=1)
+	elif (args.multiple_choice):
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "text", "size", "question", "choiches"]).to_pandas()
+		rawProblems = df.apply(readMC , axis=1)
 
-    parsedProblems = rawProblems.apply(lambda raw: parser.parseGridmode(raw) if args.grid_mode else parser.parseMultipleChoice(raw))
+	parser = Parser()
 
-    solver = Solver()
+	parsedProblems = rawProblems.apply(lambda raw: parser.parseGridmode(raw) if args.grid_mode else parser.parseMultipleChoice(raw))
 
-    solutions = parsedProblems.apply(lambda parsed: solver.solve(parsed))
+	solver = Solver()
+
+	solutions = parsedProblems.apply(lambda parsed: solver.solve(parsed))
+
+
+	if args.grid_mode:
+		solutions.apply(answerGridMode, axis=1)
 
 if __name__ == "__main__":
-    main()
+	main()

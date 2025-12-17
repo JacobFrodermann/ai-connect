@@ -56,7 +56,7 @@ class ParsedProblem:
     """"
     Multiple Choice Mode specific
     """
-    requestedProperty: str
+    requestedEntity: str
     houseNumber: int
 
     def __init__(self, id: str, width: int, height: int):
@@ -66,9 +66,12 @@ class ParsedProblem:
         self.size = (width, height)
 
 class Solution:
-    problem: ParsedProblem
     # List Index = House Number
-    var: List[Person] = []
+    ppl: List[Person] = []
+    steps: int
+    ID: str
+    entities: Set[str]
+
 
 # --- THE PARSER (Your Part) ---
 
