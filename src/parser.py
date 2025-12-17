@@ -78,15 +78,19 @@ class Parser:
         ordinals = {
             "first": "1", "1st": "1",
             "second": "2", "2nd": "2",
-            "third": "3", "3rd": "3", "middle": "3",
+            "third": "3", "3rd": "3", 
             "fourth": "4", "4th": "4",
-            "fifth": "5", "5th": "5"
+            "fifth": "5", "5th": "5",
+            "sixth": "6", "6th": "6"
         }
         
+        total_houses = parsed_obj.size[0]
+        mid_house = str((total_houses + 1) // 2) 
+
         # 2. Check for special keywords (Operators)
         is_negative = "not" in words or "n't" in words or "neither" in words
         is_neighbor = "next" in words or "beside" in words or "adjacent" in words
-        
+        is_or_logic = "or" in words
         
         direction = None
         if "left" in words: direction = "left"
@@ -103,9 +107,21 @@ class Parser:
             if word in ordinals:
                 found_entities.append((ordinals[word], "house"))
 
+            elif word == "middle":
+                found_entities.append((mid_house, "house"))
+
 
         if len(found_entities) < 2:
             return
+        
+        # or logic
+        if is_or_logic and len(found_entities) > 2:
+            subj = found_entities[0][0]
+            val1 = found_entities[1][0]
+            val2 = found_entities[2][0]
+            parsed_obj.constraints.append(OrConstraint(subject=subj, value1=val1, value2=val2))
+            return
+
 
         # Get the first two entities found
         val1, cat1 = found_entities[0]
