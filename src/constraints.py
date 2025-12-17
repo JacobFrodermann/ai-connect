@@ -1,4 +1,4 @@
-from types import Constraint, Solution
+from classes import Constraint, Solution
 
 class ValueConstraint(Constraint):
     """
@@ -24,7 +24,7 @@ class ImplicationConstraint(Constraint):
         self.then_value = then_value
 
     def isSatisfied(self, solution: Solution) -> bool:
-        for person in solution.var:
+        for person in solution.ppl:
             props = person["properties"]
             if props.get(self.if_key) == self.if_value:
                 if props.get(self.then_key) != self.then_value:
@@ -44,7 +44,7 @@ class LeftRightConstraint(Constraint):
         index1 = None
         index2 = None
 
-        for i, person in enumerate(solution.var):
+        for i, person in enumerate(solution.ppl):
             props = person["properties"]
             if props.get(self.key1) == self.value1:
                 index1 = i
