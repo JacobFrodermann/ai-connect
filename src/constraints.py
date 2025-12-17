@@ -140,3 +140,12 @@ class IsNotConstraint(Constraint):
                     return False
 
         return True
+    
+class BetweenConstraint(Constraint):
+    pass
+
+
+class OrConstraint(Constraint):
+    pass
+
+

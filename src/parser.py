@@ -91,6 +91,7 @@ class Parser:
         is_negative = "not" in words or "n't" in words or "neither" in words
         is_neighbor = "next" in words or "beside" in words or "adjacent" in words
         is_or_logic = "or" in words
+        is_between = "between" in words
         
         direction = None
         if "left" in words: direction = "left"
@@ -112,6 +113,15 @@ class Parser:
 
 
         if len(found_entities) < 2:
+            return
+        
+        # between logic
+        if is_between and len(found_entities) > 2:
+            subj = found_entities[0][0]
+            val1 = found_entities[1][0]
+            val2 = found_entities[2][0]
+            
+            parsed_obj.constraints.append(BetweenConstraint(subject=subj, value1=val1, value2=val2))
             return
         
         # or logic
