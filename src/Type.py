@@ -305,8 +305,99 @@ class Parser:
         return parsed
 
 class Solver:
+    """
+    Complete symbolic CSP solver for ZebraLogicBench-style puzzles.
+    Uses backtracking + constraint checking + uniqueness enforcement.
+    """
+
+    def __init__(self):
+        self.steps = 0  # required for efficiency score
+
     def solve(self, problem: ParsedProblem) -> Solution:
-        pass
+        self.steps = 0
+
+        width, height = problem.size
+        n = width  # number of houses
+
+        # -------------------------------
+        # 1. Initialize empty houses
+        # -------------------------------
+        solution = Solution()
+        solution.var = [{"properties": {}} for _ in range(n)]
+
+        # -------------------------------
+        # 2. Prepare entities (values)
+        # -------------------------------
+        entities = list(problem.entities)
+
+        # Each entity can be assigned to exactly one house
+        domains = {entity: set(range(n)) for entity in entities}
+
+        # -------------------------------
+        # 3. Backtracking search
+        # -------------------------------
+        success = self._backtrack(
+            solution,
+            entities,
+            domains,
+            problem.constraints,
+            assigned_entities=set()
+        )
+
+        return solution if success else Solution()
+
+    # =====================================================
+    # BACKTRACKING
+    # =====================================================
+    def _backtrack(self, solution, entities, domains, constraints, assigned_entities):
+        # All entities assigned → final check
+        if len(assigned_entities) == len(entities):
+            return self._check_constraints(solution, constraints)
+
+        self.steps += 1
+
+        # Choose next unassigned entity
+        entity = next(e for e in entities if e not in assigned_entities)
+
+        for house_idx in domains[entity]:
+            # Enforce uniqueness (no duplicate entity in same house)
+            if entity in solution.var[house_idx]["properties"].values():
+                continue
+
+            # Assign
+            solution.var[house_idx]["properties"][entity] = entity
+            assigned_entities.add(entity)
+
+            # Constraint check (early pruning)
+            if self._check_constraints(solution, constraints):
+                if self._backtrack(solution, entities, domains, constraints, assigned_entities):
+                    return True
+
+            # Undo assignment
+            del solution.var[house_idx]["properties"][entity]
+            assigned_entities.remove(entity)
+
+        return False
+
+    # =====================================================
+    # CONSTRAINT CHECKING
+    # =====================================================
+    def _check_constraints(self, solution, constraints):
+        # Enforce all constraints
+        for constraint in constraints:
+            if not constraint.isSatisfied(solution):
+                return False
+
+        # Enforce ALL-DIFFERENT (global uniqueness)
+        seen = set()
+        for house in solution.var:
+            for value in house["properties"].values():
+                if value in seen:
+                    return False
+                seen.add(value)
+
+        return True
+
 
 # --- verification (Not part of the class file, but for testing) ---
 if __name__ == "__main__":
