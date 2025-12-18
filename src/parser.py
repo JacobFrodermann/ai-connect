@@ -62,6 +62,7 @@ class Parser:
     
     def get_category_of_entity(self, entity_name: str, parsed_obj: ParsedProblem) -> str:
         
+        entity_name = entity_name.lower()
         # It finds which category (e.g., 'colors') the given word (e.g., 'red') belongs to. 
         for category, values in parsed_obj.entities.items():
             if entity_name in values:
@@ -88,7 +89,7 @@ class Parser:
         mid_house = str((total_houses + 1) // 2) 
 
         # 2. Check for special keywords (Operators)
-        is_negative = "not" in words or "n't" in words or "neither" in words
+        is_negative = any(x in words for x in ["not", "never", "isnt", "neither", "nor", "n't"])
         is_neighbor = "next" in words or "beside" in words or "adjacent" in words
         is_or_logic = "or" in words
         is_between = "between" in words
@@ -115,37 +116,28 @@ class Parser:
         if len(found_entities) < 2:
             return
         
-        # between logic
-        if is_between and len(found_entities) > 2:
-            subj = found_entities[0][0]
-            val1 = found_entities[1][0]
-            val2 = found_entities[2][0]
-
-            parsed_obj.constraints.append(BetweenConstraint(subject=subj, value1=val1, value2=val2))
-            return
-        
-        # or logic
-        if is_or_logic and len(found_entities) > 2:
-            subj = found_entities[0][0]
-            val1 = found_entities[1][0]
-            val2 = found_entities[2][0]
-            parsed_obj.constraints.append(OrConstraint(subject=subj, value1=val1, value2=val2))
-            return
-
-
         # Get the first two entities found
         val1, cat1 = found_entities[0]
         val2, cat2 = found_entities[1]
+        
+        # between logic
+        if is_between and len(found_entities) >= 3:
+            val3 = found_entities[2][0]     # third entity
+            parsed_obj.constraints.append(BetweenConstraint(subject=val1, value1=val2, value2=val3))
+            return
+        
+        # or logic
+        if is_or_logic:
+            parsed_obj.constraints.append(OrConstraint(option1=val1, option2=val2))
+            return
+
 
         # 4. Create the correct Constraint object based on keywords found
         
         # Case A: Neighbor Logic (e.g., "The blue house is next to the red house")
         if is_neighbor:
-            if is_negative:
-                print(f"Negative neighbor logic not supported yet: {words}")
-            else:
-                con = NeighborConstraint(subject=val1, neighbor=val2)
-                parsed_obj.constraints.append(con)
+            if not is_negative:
+                parsed_obj.constraints.append(NeighborConstraint(subject=val1, neighbor=val2))
                 return
 
         # Case B: Direction Logic (e.g., "The white house is to the left of the green house")
@@ -192,15 +184,18 @@ class Parser:
     def parseMultipleChoice(self, raw: RawProblem) -> ParsedProblem:
         parsed = self.parse(raw)
 
-        parsed.requestedEntity = raw.question.split(' ')[2]
-        parsed.houseNumber = int(raw.question.split(' ')[-1].removesuffix('?'))
-         
+        name_match = re.search(r"is ([A-Z][a-z]+)", raw.question)   
+        num_match = re.search(r"house (\d+)", raw.question)
+        
+        if name_match: parsed.requestedEntity = name_match.group(1).lower()
+        if num_match: parsed.houseNumber = int(num_match.group(1))
+
         return parsed
     
     def extract_entities_and_categories(self, text: str, parsed_obj: ParsedProblem):
         
         #'Colors: red, blue.' -> {'colors': ['red', 'blue']}
-        pattern = r"([A-Z][a-zA-Z]+):\s*([^.\n]+)"
+        pattern = r"(?:- )?([a-zA-Z\s']+):\s*([^.\n#]+)"
         matches = re.findall(pattern, text)
         for category, values in matches:
             category_name = category.lower().strip()
@@ -210,9 +205,8 @@ class Parser:
                 continue
             
             # (e.g. red and green -> red, green)
-            cleaned_values = values.replace(" and ", ", ")
-
-            val_list = [v.strip().lower() for v in cleaned_values.split(",")]
+            cleaned_values = values.replace("`", "").replace(" and ", ", ")
+            val_list = [v.strip().lower() for v in cleaned_values.split(",") if v.strip()]
             parsed_obj.entities[category_name] = val_list
 
 class TestParser(unittest.TestCase):
