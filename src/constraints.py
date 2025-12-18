@@ -13,7 +13,7 @@ class ValueConstraint(Constraint):
         subject_index = None
         value_index = None
 
-        for i, person in enumerate(solution.var):
+        for i, person in enumerate(solution.ppl):
             props = person.get("properties", {})
 
             if self.subject in props.values():
@@ -87,7 +87,7 @@ class UniqueConstraint(Constraint):
     def isSatisfied(self, solution: Solution) -> bool:
         count = 0
 
-        for person in solution.var:
+        for person in solution.ppl:
             props = person.get("properties", {})
             if props.get(self.property_name) == self.value:
                 count += 1
@@ -108,7 +108,7 @@ class NeighborConstraint(Constraint):
         index_subject = None
         index_neighbor = None
 
-        for i, person in enumerate(solution.var):
+        for i, person in enumerate(solution.ppl):
             props = person.get("properties", {})
 
             if self.subject in props.values():
@@ -132,7 +132,7 @@ class IsNotConstraint(Constraint):
         self.value = value
 
     def isSatisfied(self, solution: Solution) -> bool:
-        for person in solution.var:
+        for person in solution.ppl:
             props = person.get("properties", {})
 
             if self.subject in props.values():
@@ -142,7 +142,41 @@ class IsNotConstraint(Constraint):
         return True
     
 class BetweenConstraint(Constraint):
-    pass
+    """
+    Ensures subject is positioned between value1 and value2.
+    e.g., "Bob is between Alice and Carol"
+    """
+    def __init__(self, subject: str, value1: str, value2: str):
+        self.subject = subject
+        self.value1 = value1
+        self.value2 = value2
+
+    def isSatisfied(self, solution: Solution) -> bool:
+        index_subject = None
+        index_val1 = None
+        index_val2 = None
+
+        for i, person in enumerate(solution.ppl):
+            props = person.get("properties", {})
+
+            if self.subject in props.values():
+                index_subject = i
+            if self.value1 in props.values():
+                index_val1 = i
+            if self.value2 in props.values():
+                index_val2 = i
+
+        # Not fully assigned yet → cannot be violated
+        if index_subject is None or index_val1 is None or index_val2 is None:
+            return True
+
+        # Subject must be strictly between val1 and val2
+        min_idx = min(index_val1, index_val2)
+        max_idx = max(index_val1, index_val2)
+        return min_idx < index_subject < max_idx
+
+    def __repr__(self):
+        return f"BetweenConstraint: [{self.value1}] < [{self.subject}] < [{self.value2}]"
 
 
 class OrConstraint(Constraint):
@@ -157,7 +191,7 @@ class OrConstraint(Constraint):
         option1_found = False
         option2_found = False
 
-        for person in solution.var:
+        for person in solution.ppl:
             props = person.get("properties", {})
 
             if self.option1 in props.values():

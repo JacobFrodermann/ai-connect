@@ -25,18 +25,18 @@ def readMC(row) -> RawProblem :
 	return  RawProblem(row["id"], row["puzzle"], question=row["question"], choiches=row["choices"])
 
 def answerGridMode(sol: Solution):
-    header = list(sol.entities)
-    asDict = {
-        "header": header,
-        "rows": []
-    }
-    for i in range(len(sol.ppl)):
-        row = []
-        for entity in header:
-            row.append(sol.ppl[i].properties[entity])
+	header = list(sol.entities)
+	asDict = {
+		"header": header,
+		"rows": []
+	}
+	for i in range(len(sol.ppl)):
+		row = []
+		for entity in header:
+			row.append(sol.ppl[i].get(entity))
 
-    print(f"{sol.ID}|{json.dumps(asDict)}|{sol.steps}")
-    pass
+	print(f"{sol.ID}|{json.dumps(asDict)}|{sol.steps}")
+	pass
 
 def main():
 	argParse = ArgumentParser()
@@ -53,14 +53,11 @@ def main():
 	df = pd.DataFrame()
 	rawProblems = pd.Series(dtype=object)
 
-	print(args.grid_mode)
-	print(args.multiple_choice)
-
 	if args.grid_mode:
 		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas().head(1)
 		rawProblems = df.apply(readGridMode , axis=1)
 	elif args.multiple_choice:
-		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "puzzle", "question", "choices"]).to_pandas()
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "puzzle", "question", "choices"]).to_pandas().head(1)
 		rawProblems = df.apply(readMC , axis=1)
 
 	parser = Parser()

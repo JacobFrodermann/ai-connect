@@ -13,17 +13,17 @@ class Parser:
     """
         
     def parse(self, raw: RawProblem) -> ParsedProblem:
+        parsed = ParsedProblem(raw.ID)
 
-        w, h = 0, 0
+        #There are 5 houses, numbered 1 to 5 from left to right, as seen from across the street. Each house is occupied by a different person. Each person has a unique name: `Peter`, `Alice`, `Bob`, `Eric`, `Arnold`\\n - The people are of nationalities: `norwegian`, `german`, `dane`, `brit`, `swede`\\n - People have unique favorite book genres: `fantasy`, `biography`, `romance`, `mystery`, `science fiction`\\n - Everyone has something unique for lunch: `stir fry`, `grilled cheese`, `pizza`, `spaghetti`, `stew`\\n - Each person has a favorite color: `red`, `green`, `blue`, `yellow`, `white`\\n - The people keep unique animals: `bird`, `dog`, `cat`, `horse`, `fish`\\n\\n## Clues:\\n1. The person who loves fantasy books is the Norwegian.\\n2. The cat lover and the person who loves biography books are next to each other.\\n3. The German is Bob.\\n4. The person who loves yellow is Bob.\\n5. The person whose favorite color is green is Peter.\\n6. There is one house between the Dane and the person who is a pizza lover.\\n7. The person who loves blue is somewhere to the left of the Dane.\\n8. The person who loves eating grilled cheese is somewhere to the left of the Norwegian.\\n9. The person who loves the spaghetti eater is Peter.\\n10. The person who keeps horses is Alice.\\n11. The fish enthusiast is directly left of the person who loves science fiction books.\\n12. There is one house between the Norwegian and Arnold.\\n13. The person who loves romance books is the British person.\\n14. Ther…
 
-        if hasattr(raw, "size") and isinstance(raw.size, str) and "*" in raw.size:
-            parts = raw.size.split("*")
-            w, h = int(parts[0]), int(parts[1])
-
-        parsed = ParsedProblem(raw.ID, w, h)
+        pre1 = re.sub(
+            r'There are \d houses, numbered \d to \d from left to right, as seen from across the street. Each house is occupied by a different person. Each house has a unique attribute for each of the following characteristics:\n - ',
+            '', raw.text)
 
         # Read the headings (Colors: red...) and the entities dictionary
-        self.extract_entities_and_categories(raw.text, parsed)
+        self.extract_entities_and_categories(pre1, parsed)
+
         
         # 1. Ingestion: Load text into DataFrame for vectorized processing
         # We split by '.' to analyze the puzzle sentence-by-sentence.
@@ -57,7 +57,10 @@ class Parser:
         # Iterate through processed sentences to generate Constraints
         for index, row in df.iterrows():
             self._extract_constraints(row["tags"], parsed)
-            
+
+        print("Parsed Problem " + parsed.ID)
+        print("Found the Following attributes: " + str(parsed.entities))
+
         return parsed
     
     def get_category_of_entity(self, entity_name: str, parsed_obj: ParsedProblem) -> str:
@@ -195,19 +198,40 @@ class Parser:
     def extract_entities_and_categories(self, text: str, parsed_obj: ParsedProblem):
         
         #'Colors: red, blue.' -> {'colors': ['red', 'blue']}
-        pattern = r"(?:- )?([a-zA-Z\s']+):\s*([^.\n#]+)"
-        matches = re.findall(pattern, text)
-        for category, values in matches:
-            category_name = category.lower().strip()
 
-            # skip the word 'Clues' so they don't mistake it for a category.
-            if category_name == "clues":
-                continue
-            
-            # (e.g. red and green -> red, green)
-            cleaned_values = values.replace("`", "").replace(" and ", ", ")
-            val_list = [v.strip().lower() for v in cleaned_values.split(",") if v.strip()]
-            parsed_obj.entities[category_name] = val_list
+        lines = text.split('\n')
+        entityCount = lines.index("## Clues:")-1
+
+        prefixes = [
+            "Each person has a ",
+            "Each person has an ",
+            "The people are of ",
+            "People have unique favorite ",
+            "The people keep unique ",
+            "Everyone has something ",
+            "The people are of ",
+            "People use "
+        ]
+
+        for i in range(entityCount):
+            l = lines[i]
+            l = re.sub(" - ", "",l)
+            pre = ""
+            for prf in prefixes:
+                if l.startswith(prf):
+                    pre = prf
+                    break
+
+            if pre == "":
+                print("Unkown prefix: " + l)
+
+            entity = re.sub(pre, "", l).split(":")[0]
+
+            rawDomain = re.sub(pre, "", l).split(":")[1]
+
+            domain = [x.strip(" `") for x in rawDomain.split(",")]
+
+            parsed_obj.entities[entity] = domain
 
 class TestParser(unittest.TestCase):
     def setUp(self):
