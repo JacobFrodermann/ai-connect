@@ -1,0 +1,1001 @@
+id, grid_solution, steps
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-27,"{"header": ["House", "unique name", "occupation", "book genres", "unique phone models", "names"], "rows": [["1", "Alice", "artist", "fantasy", "google pixel 6", "galaxy"], ["2", "Eric", "engineer", "science fiction", "iphone 13", "alice"], ["3", "Arnold", "teacher", "romance", "oneplus 9", "eric"], ["4", "Peter", "doctor", "mystery", "samsung galaxy s21", "arnold"]]}",5523
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-33,"{"header": ["House", "unique name", "unique type of pet", "names"], "rows": [["1", "Eric", "dog", "eric"], ["2", "Arnold", "cat", "arnold"]]}",9
+lgp-test-4x4-3,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "unique birthday month", "Each person lives in a unique style of house", "names"], "rows": [["1", "Eric", "Holly", "april", "ranch", "peter"], ["2", "Arnold", "Kailyn", "feb", "colonial", "eric"], ["3", "Alice", "Aniya", "sept", "victorian", "janelle"], ["4", "Peter", "Janelle", "jan", "craftsman", "arnold"]]}",289
+lgp-test-2x4-5,"{"header": ["House", "unique name", "They all have a unique favorite flower", "favorite color", "People have unique heights", "names"], "rows": [["1", "", "", "", "", ""], ["2", "", "", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-34,"{"header": ["House", "unique name", "favorite color", "unique phone models", "music genres", "unique level of education", "names"], "rows": [["1", "Peter", "white", "google pixel 6", "classical", "high school", "arnold"], ["2", "Eric", "red", "samsung galaxy s21", "rock", "bachelor", "samsung"], ["3", "Arnold", "yellow", "iphone 13", "pop", "associate", "peter"]]}",355
+lgp-test-4x5-3,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "book genres", "favorite color", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Arnold", "Holly", "science fiction", "green", "mountain", "arnold"], ["2", "Peter", "Kailyn", "mystery", "white", "cruise", "kailyn"], ["3", "Eric", "Aniya", "fantasy", "red", "beach", "there"], ["4", "Alice", "Janelle", "romance", "yellow", "city", "peter"]]}",3159
+lgp-test-2x6-24,"{"header": ["House", "unique name", "unique type of pet", "nationalities", "occupation", "sports", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "cat", "dane", "doctor", "soccer", "pall mall", "eric"], ["2", "Arnold", "dog", "brit", "engineer", "basketball", "prince", "prince"]]}",17
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-21,"{"header": ["House", "unique name", "People own unique car models", "unique birthday month", "unique hobby", "names"], "rows": [["1", "Eric", "tesla model 3", "jan", "painting", "january"], ["2", "Peter", "honda civic", "april", "cooking", "honda"], ["3", "Alice", "toyota camry", "sept", "gardening", "civic"], ["4", "Arnold", "ford f150", "feb", "photography", "tesla"]]}",414
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-9,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "unique phone models", "names"], "rows": [["1", "Arnold", "colonial", "iphone 13", "eric"], ["2", "Eric", "victorian", "samsung galaxy s21", "samsung"]]}",11
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-16,"{"header": ["House", "unique name", "unique favorite drink", "sports", "animals", "book genres", "names"], "rows": [["1", "Eric", "milk", "soccer", "bird", "science fiction", "there"], ["2", "Arnold", "tea", "tennis", "horse", "mystery", "arnold"], ["3", "Peter", "water", "basketball", "cat", "romance", "eric"]]}",517
+lgp-test-4x3-10,"{"header": ["House", "unique name", "unique typeof pet", "unique phone models", "names"], "rows": [["1", "Alice", "bird", "iphone 13", "google"], ["2", "Peter", "cat", "google pixel 6", "pixel"], ["3", "Eric", "dog", "oneplus 9", "peter"], ["4", "Arnold", "fish", "samsung galaxy s21", "alice"]]}",21
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-30,"{"header": ["House", "unique name", "music genres", "sports", "Everyone has a unique favorite cigar", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "pop", "tennis", "blue master", "Holly", "pall"], ["2", "Arnold", "classical", "basketball", "pall mall", "Aniya", "mall"], ["3", "Peter", "rock", "soccer", "prince", "Janelle", "prince"]]}",243
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-22,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Arnold", "iphone 13", "peter"], ["2", "Peter", "oneplus 9", "huawei"], ["3", "Bob", "samsung galaxy s21", "there"], ["4", "Alice", "google pixel 6", "eric"], ["5", "Eric", "huawei p50", "arnold"]]}",21
+lgp-test-4x3-36,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "unique favorite drink", "names"], "rows": [["1", "Eric", "ranch", "tea", "victorian"], ["2", "Arnold", "craftsman", "coffee", "craftsman"], ["3", "Alice", "victorian", "milk", "alice"], ["4", "Peter", "colonial", "water", "eric"]]}",20979
+lgp-test-5x2-14,"{"header": ["House", "unique name", "unique for lunch", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""], ["3", "", "", ""], ["4", "", "", ""], ["5", "", "", ""]]}",0
+lgp-test-4x5-34,"{"header": ["House", "unique name", "People have unique heights", "unique favorite drink", "Each mother is accompanied by their child", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "tall", "tea", "Fred", "Holly", "arnold"], ["2", "Arnold", "very short", "coffee", "Meredith", "Janelle", "holly"], ["3", "Alice", "average", "water", "Bella", "Aniya", "meredith"], ["4", "Peter", "short", "milk", "Samantha", "Kailyn", "aniya"]]}",29
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-9,"{"header": ["House", "unique name", "People own unique car models", "Each person lives in a unique style of house", "unique type of pet", "occupation", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Peter", "toyota camry", "ranch", "cat", "doctor", "city", "toyota"], ["2", "Arnold", "ford f150", "colonial", "dog", "engineer", "mountain", "peter"], ["3", "Eric", "tesla model 3", "victorian", "fish", "teacher", "beach", "tesla"]]}",12293
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-16,"{"header": ["House", "unique name", "unique for lunch", "People own unique car models", "names"], "rows": [["1", "Eric", "pizza", "tesla model 3", "ford"], ["2", "Arnold", "grilled cheese", "ford f150", "eric"]]}",16
+lgp-test-3x3-24,"{"header": ["House", "unique name", "favorite color", "Each mother is accompanied by their child", "names"], "rows": [["1", "Peter", "red", "Fred", "arnold"], ["2", "Eric", "white", "Meredith", "fred"], ["3", "Arnold", "yellow", "Bella", "eric"]]}",16
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-25,"{"header": ["House", "unique name", "unique birthday month", "favorite color", "nationalities", "People have unique hair colors", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "april", "red", "dane", "black", "Fred", "fred"], ["2", "Eric", "sept", "yellow", "brit", "brown", "Bella", "british"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-14,"{"header": ["House", "unique name", "People have unique heights", "unique type of pet", "nationalities", "favorite color", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "short", "cat", "brit", "yellow", "Aniya", "dane"], ["2", "Eric", "very short", "dog", "dane", "red", "Holly", "eric"]]}",22
+lgp-test-2x5-30,"{"header": ["House", "unique name", "People have unique heights", "They all have a unique favorite flower", "People have unique hair colors", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "very short", "daffodils", "black", "pall mall", "mall"], ["2", "Eric", "short", "carnations", "brown", "prince", "arnold"]]}",23
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-33,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "They all have a unique favorite flower", "sports", "names"], "rows": [["1", "Arnold", "pall mall", "carnations", "basketball", "eric"], ["2", "Eric", "prince", "daffodils", "soccer", "prince"]]}",28
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-18,"{"header": ["House", "unique name", "People have unique heights", "names"], "rows": [["1", "Arnold", "short", "arnold"], ["2", "Eric", "very short", "eric"]]}",9
+lgp-test-2x6-29,"{"header": ["House", "unique name", "music genres", "unique type of pet", "unique for lunch", "nationalities", "unique birthday month", "names"], "rows": [["1", "Eric", "pop", "cat", "pizza", "brit", "april", "arnold"], ["2", "Arnold", "rock", "dog", "grilled cheese", "dane", "sept", "april"]]}",128
+lgp-test-4x2-14,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "Kailyn", "aniya"], ["2", "Peter", "Holly", "holly"], ["3", "Eric", "Aniya", "arnold"], ["4", "Alice", "Janelle", "eric"]]}",17
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-19,"{"header": ["House", "unique name", "occupation", "unique favorite drink", "unique phone models", "names"], "rows": [["1", "Eric", "engineer", "milk", "google pixel 6", "samsung"], ["2", "Arnold", "teacher", "water", "samsung galaxy s21", "galaxy"], ["3", "Peter", "doctor", "tea", "iphone 13", "arnold"]]}",1247
+lgp-test-5x2-38,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Bob", "google pixel 6", "google"], ["2", "Alice", "samsung galaxy s21", "peter"], ["3", "Eric", "huawei p50", "huawei"], ["4", "Peter", "iphone 13", "bob"], ["5", "Arnold", "oneplus 9", "arnold"]]}",21
+lgp-test-3x6-26,"{"header": ["House", "unique name", "sports", "Each person lives in a unique style of house", "unique type of pet", "unique birthday month", "nationalities", "names"], "rows": [["1", "Peter", "soccer", "victorian", "dog", "april", "swede", "victorian"], ["2", "Eric", "basketball", "colonial", "fish", "sept", "dane", "british"], ["3", "Arnold", "tennis", "ranch", "cat", "jan", "brit", "dane"]]}",47835
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-14,"{"header": ["House", "unique name", "They all have a unique favorite flower", "unique level of education", "unique type of pet", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "daffodils", "high school", "fish", "desert", "arnold"], ["2", "Eric", "carnations", "bachelor", "dog", "cherry", "cherry"], ["3", "Arnold", "lilies", "associate", "cat", "watermelon", "watermelon"]]}",2329
+lgp-test-2x2-16,"{"header": ["House", "unique name", "sports", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+lgp-test-3x2-2,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "Aniya", "holly"], ["2", "Arnold", "Holly", "eric"], ["3", "Peter", "Janelle", "janelle"]]}",13
+lgp-test-2x2-1,"{"header": ["House", "unique name", "occupation", "names"], "rows": [["1", "Arnold", "engineer", "eric"], ["2", "Eric", "doctor", "arnold"]]}",9
+lgp-test-2x2-38,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+lgp-test-3x4-10,"{"header": ["House", "unique name", "book genres", "unique for lunch", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "romance", "grilled cheese", "desert", "eric"], ["2", "Eric", "mystery", "spaghetti", "watermelon", "peter"], ["3", "Peter", "science fiction", "pizza", "cherry", "cherry"]]}",106
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-7,"{"header": ["House", "unique name", "People have unique hair colors", "unique birthday month", "names"], "rows": [["1", "Peter", "blonde", "jan", "arnold"], ["2", "Arnold", "black", "april", "january"], ["3", "Eric", "brown", "sept", "september"]]}",53
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-17,"{"header": ["House", "unique name", "favorite color", "Everyone has a unique favorite cigar", "book genres", "nationalities", "occupation", "names"], "rows": [["1", "Arnold", "yellow", "prince", "mystery", "brit", "engineer", "prince"], ["2", "Eric", "red", "pall mall", "science fiction", "dane", "doctor", "arnold"]]}",20
+lgp-test-6x3-2,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "book genres", "names"], "rows": [["1", "Alice", "dunhill", "fantasy", "pall"], ["2", "Peter", "blends", "romance", "alice"], ["3", "Eric", "blue master", "science fiction", "prince"], ["4", "Bob", "yellow monster", "mystery", "peter"], ["5", "Carol", "pall mall", "historical fiction", "dunhill"], ["6", "Arnold", "prince", "biography", "bob"]]}",31
+lgp-test-3x2-0,"{"header": ["House", "unique name", "unique type of pet", "names"], "rows": [["1", "Arnold", "fish", "arnold"], ["2", "Peter", "dog", "peter"], ["3", "Eric", "cat", "there"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-18,"{"header": ["House", "unique name", "unique favorite drink", "unique level of education", "The mothers' names in different houses are unique", "favorite color", "names"], "rows": [["1", "Alice", "water", "master", "Kailyn", "yellow", "kailyn"], ["2", "Arnold", "tea", "associate", "Holly", "red", "eric"], ["3", "Eric", "coffee", "high school", "Aniya", "white", "aniya"], ["4", "Peter", "milk", "bachelor", "Janelle", "green", "peter"]]}",37885
+lgp-test-2x2-24,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-34,"{"header": ["House", "unique name", "animals", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-38,"{"header": ["House", "unique name", "unique level of education", "unique favorite drink", "book genres", "unique hobby", "People own unique car models", "names"], "rows": [["1", "Arnold", "associate", "water", "mystery", "photography", "ford f150", "eric"], ["2", "Eric", "bachelor", "milk", "romance", "cooking", "tesla model 3", "toyota"], ["3", "Peter", "high school", "tea", "science fiction", "gardening", "toyota camry", "camry"]]}",41360
+lgp-test-5x2-7,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "blends", "alice"], ["2", "Alice", "prince", "blue"], ["3", "Eric", "dunhill", "master"], ["4", "Peter", "pall mall", "there"], ["5", "Bob", "blue master", "dunhill"]]}",21
+lgp-test-3x4-18,"{"header": ["House", "unique name", "They all have a unique favorite flower", "nationalities", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "carnations", "dane", "watermelon", "eric"], ["2", "Peter", "lilies", "swede", "cherry", "arnold"], ["3", "Eric", "daffodils", "brit", "desert", "british"]]}",650
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-28,"{"header": ["House", "unique name", "unique level of education", "unique birthday month", "names"], "rows": [["1", "Eric", "associate", "sept", "february"], ["2", "Bob", "doctorate", "april", "peter"], ["3", "Peter", "high school", "mar", "there"], ["4", "Arnold", "bachelor", "feb", "january"], ["5", "Alice", "master", "jan", "eric"]]}",26
+lgp-test-3x4-2,"{"header": ["House", "unique name", "unique favorite drink", "They all have a unique favorite flower", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "water", "carnations", "pall mall", "blue"], ["2", "Peter", "milk", "lilies", "prince", "arnold"], ["3", "Arnold", "tea", "daffodils", "blue master", "eric"]]}",19
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-6,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Peter", "google pixel 6", "eric"], ["2", "Eric", "samsung galaxy s21", "galaxy"], ["3", "Arnold", "huawei p50", "alice"], ["4", "Alice", "oneplus 9", "google"], ["5", "Bob", "iphone 13", "pixel"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-7,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "nationalities", "unique birthday month", "names"], "rows": [["1", "Peter", "Bella", "dane", "april", "british"], ["2", "Arnold", "Fred", "brit", "jan", "eric"], ["3", "Eric", "Meredith", "swede", "sept", "september"]]}",19
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-7,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Alice", "huawei p50", "there"], ["2", "Arnold", "iphone 13", "peter"], ["3", "Eric", "xiaomi mi 11", "bob"], ["4", "Peter", "samsung galaxy s21", "samsung"], ["5", "Bob", "google pixel 6", "galaxy"], ["6", "Carol", "oneplus 9", "alice"]]}",25
+lgp-test-3x2-29,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Eric", "ford f150", "ford"], ["2", "Peter", "tesla model 3", "toyota"], ["3", "Arnold", "toyota camry", "arnold"]]}",13
+lgp-test-4x2-36,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Arnold", "dane", "eric"], ["2", "Peter", "swede", "dane"], ["3", "Eric", "brit", "norwegian"], ["4", "Alice", "norwegian", "arnold"]]}",20
+lgp-test-2x2-28,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "prince", "arnold"], ["2", "Arnold", "pall mall", "eric"]]}",9
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-29,"{"header": ["House", "unique name", "They all have a unique favorite flower", "nationalities", "Everyone has a favorite smoothie", "sports", "names"], "rows": [["1", "Eric", "daffodils", "brit", "desert", "basketball", "arnold"], ["2", "Arnold", "carnations", "dane", "cherry", "soccer", "dane"]]}",81
+lgp-test-4x4-36,"{"header": ["House", "unique name", "People have unique hair colors", "occupation", "unique favorite drink", "names"], "rows": [["1", "Arnold", "black", "artist", "coffee", "eric"], ["2", "Peter", "blonde", "engineer", "milk", "arnold"], ["3", "Alice", "red", "teacher", "tea", "alice"], ["4", "Eric", "brown", "doctor", "water", "peter"]]}",16817
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-5,"{"header": ["House", "unique name", "unique birthday month", "People own unique car models", "People have unique hair colors", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "sept", "tesla model 3", "brown", "Aniya", "arnold"], ["2", "Peter", "april", "toyota camry", "black", "Janelle", "april"], ["3", "Arnold", "jan", "ford f150", "blonde", "Holly", "eric"]]}",22
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-39,"{"header": ["House", "unique name", "animals", "favorite color", "nationalities", "They all have a unique favorite flower", "names"], "rows": [["1", "Peter", "cat", "red", "dane", "carnations", "dane"], ["2", "Eric", "horse", "yellow", "brit", "daffodils", "eric"], ["3", "Arnold", "bird", "white", "swede", "lilies", "arnold"]]}",12509
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-28,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "nationalities", "Each person prefers a unique type of vacation", "unique type of pet", "book genres", "names"], "rows": [["1", "Arnold", "colonial", "dane", "beach", "cat", "science fiction", "eric"], ["2", "Eric", "victorian", "brit", "mountain", "dog", "mystery", "dane"]]}",72
+lgp-test-2x3-26,"{"header": ["House", "unique name", "unique level of education", "unique favorite drink", "names"], "rows": [["1", "", "", "", ""], ["2", "", "", "", ""]]}",0
+lgp-test-3x5-35,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "Each mother is accompanied by their child", "The mothers' names in different houses are unique", "animals", "names"], "rows": [["1", "Peter", "blue master", "Fred", "Holly", "cat", "prince"], ["2", "Eric", "prince", "Meredith", "Aniya", "horse", "janelle"], ["3", "Arnold", "pall mall", "Bella", "Janelle", "bird", "bella"]]}",22
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-10,"{"header": ["House", "unique name", "sports", "book genres", "unique birthday month", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "basketball", "romance", "sept", "lilies", "eric"], ["2", "Peter", "tennis", "science fiction", "april", "daffodils", "peter"], ["3", "Eric", "soccer", "mystery", "jan", "carnations", "september"]]}",432
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-36,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "unique hobby", "sports", "They all have a unique favorite flower", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "mountain", "cooking", "tennis", "lilies", "watermelon", "arnold"], ["2", "Eric", "beach", "photography", "basketball", "carnations", "desert", "desert"], ["3", "Arnold", "city", "gardening", "soccer", "daffodils", "cherry", "eric"]]}",18556
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-31,"{"header": ["House", "unique name", "book genres", "unique birthday month", "nationalities", "names"], "rows": [["1", "Arnold", "romance", "sept", "brit", "april"], ["2", "Peter", "mystery", "april", "dane", "arnold"], ["3", "Eric", "science fiction", "jan", "swede", "september"]]}",145
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-21,"{"header": ["House", "unique name", "People have unique heights", "unique hobby", "names"], "rows": [["1", "Alice", "tall", "cooking", "eric"], ["2", "Peter", "very short", "photography", "alice"], ["3", "Arnold", "short", "gardening", "arnold"], ["4", "Eric", "average", "painting", "there"]]}",10955
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-35,"{"header": ["House", "unique name", "unique birthday month", "People have unique hair colors", "They all have a unique favorite flower", "unique level of education", "People own unique car models", "names"], "rows": [["1", "Eric", "sept", "black", "daffodils", "high school", "tesla model 3", "tesla"], ["2", "Arnold", "april", "brown", "carnations", "associate", "ford f150", "arnold"]]}",60
+lgp-test-3x3-16,"{"header": ["House", "unique name", "People own unique car models", "unique phone models", "names"], "rows": [["1", "Eric", "ford f150", "samsung galaxy s21", "eric"], ["2", "Peter", "tesla model 3", "google pixel 6", "samsung"], ["3", "Arnold", "toyota camry", "iphone 13", "arnold"]]}",16
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-37,"{"header": ["House", "unique name", "People own unique car models", "unique for lunch", "sports", "unique favorite drink", "names"], "rows": [["1", "Eric", "ford f150", "grilled cheese", "soccer", "water", "tesla"], ["2", "Arnold", "tesla model 3", "pizza", "basketball", "tea", "model"]]}",15
+lgp-test-5x2-12,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "cherry", "dragonfruit"], ["2", "Eric", "dragonfruit", "cherry"], ["3", "Bob", "lime", "lime"], ["4", "Arnold", "watermelon", "bob"], ["5", "Alice", "desert", "desert"]]}",5774
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-1,"{"header": ["House", "unique name", "unique phone models", "animals", "occupation", "unique birthday month", "unique for lunch", "names"], "rows": [["1", "Eric", "google pixel 6", "bird", "engineer", "jan", "spaghetti", "samsung"], ["2", "Arnold", "iphone 13", "horse", "teacher", "sept", "grilled cheese", "peter"], ["3", "Peter", "samsung galaxy s21", "cat", "doctor", "april", "pizza", "eric"]]}",37679
+lgp-test-6x2-16,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Bob", "Meredith", "arnold"], ["2", "Alice", "Fred", "samantha"], ["3", "Arnold", "Timothy", "there"], ["4", "Peter", "Samantha", "bella"], ["5", "Eric", "Bella", "bob"], ["6", "Carol", "Alice", "peter"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-11,"{"header": ["House", "unique name", "unique favorite drink", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "coffee", "Samantha", "meredith"], ["2", "Eric", "water", "Meredith", "samantha"], ["3", "Peter", "tea", "Bella", "fred"], ["4", "Alice", "milk", "Fred", "bella"]]}",82
+lgp-test-3x3-11,"{"header": ["House", "unique name", "unique for lunch", "People have unique hair colors", "names"], "rows": [["1", "Arnold", "grilled cheese", "black", "peter"], ["2", "Eric", "spaghetti", "blonde", "arnold"], ["3", "Peter", "pizza", "brown", "eric"]]}",61
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-30,"{"header": ["House", "unique name", "book genres", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "mystery", "lime", "there"], ["2", "Eric", "fantasy", "watermelon", "watermelon"], ["3", "Bob", "science fiction", "dragonfruit", "alice"], ["4", "Alice", "romance", "desert", "arnold"], ["5", "Arnold", "biography", "cherry", "dragonfruit"]]}",42
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-22,"{"header": ["House", "unique name", "favorite color", "Each person prefers a unique type of vacation", "unique birthday month", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "white", "city", "sept", "Meredith", "january"], ["2", "Eric", "red", "beach", "april", "Fred", "september"], ["3", "Peter", "yellow", "mountain", "jan", "Bella", "peter"]]}",121
+lgp-test-3x4-28,"{"header": ["House", "unique name", "unique favorite drink", "nationalities", "book genres", "names"], "rows": [["1", "Arnold", "water", "dane", "mystery", "arnold"], ["2", "Peter", "tea", "brit", "romance", "peter"], ["3", "Eric", "milk", "swede", "science fiction", "swedish"]]}",85
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-8,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "The mothers' names in different houses are unique", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "desert", "Aniya", "Bella", "fred"], ["2", "Eric", "cherry", "Holly", "Fred", "cherry"]]}",13
+lgp-test-3x5-7,"{"header": ["House", "unique name", "sports", "animals", "unique favorite drink", "nationalities", "names"], "rows": [["1", "Peter", "soccer", "bird", "milk", "swede", "eric"], ["2", "Arnold", "basketball", "horse", "water", "dane", "peter"], ["3", "Eric", "tennis", "cat", "tea", "brit", "british"]]}",3852
+lgp-test-4x3-35,"{"header": ["House", "unique name", "unique phone models", "They all have a unique favorite flower", "names"], "rows": [["1", "Alice", "samsung galaxy s21", "lilies", "galaxy"], ["2", "Eric", "iphone 13", "roses", "google"], ["3", "Peter", "oneplus 9", "carnations", "eric"], ["4", "Arnold", "google pixel 6", "daffodils", "alice"]]}",6605
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-18,"{"header": ["House", "unique name", "nationalities", "unique level of education", "unique birthday month", "occupation", "unique phone models", "names"], "rows": [["1", "Arnold", "brit", "associate", "april", "doctor", "samsung galaxy s21", "dane"], ["2", "Eric", "dane", "high school", "sept", "engineer", "iphone 13", "eric"]]}",98
+lgp-test-2x2-26,"{"header": ["House", "unique name", "People have unique hair colors", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+lgp-test-3x5-29,"{"header": ["House", "unique name", "They all have a unique favorite flower", "unique phone models", "occupation", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "daffodils", "samsung galaxy s21", "engineer", "pall mall", "peter"], ["2", "Arnold", "carnations", "iphone 13", "teacher", "blue master", "galaxy"], ["3", "Eric", "lilies", "google pixel 6", "doctor", "prince", "prince"]]}",13349
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-34,"{"header": ["House", "unique name", "sports", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Peter", "soccer", "cruise", "peter"], ["2", "Eric", "basketball", "beach", "eric"], ["3", "Alice", "swimming", "city", "arnold"], ["4", "Arnold", "tennis", "mountain", "alice"]]}",2089
+lgp-test-5x2-17,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Alice", "colonial", "victorian"], ["2", "Eric", "victorian", "craftsman"], ["3", "Peter", "craftsman", "arnold"], ["4", "Bob", "ranch", "peter"], ["5", "Arnold", "modern", "eric"]]}",898
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-10,"{"header": ["House", "unique name", "unique phone models", "unique favorite drink", "names"], "rows": [["1", "Arnold", "samsung galaxy s21", "water", "samsung"], ["2", "Eric", "iphone 13", "tea", "galaxy"]]}",11
+lgp-test-3x2-11,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Eric", "iphone 13", "eric"], ["2", "Arnold", "samsung galaxy s21", "arnold"], ["3", "Peter", "google pixel 6", "samsung"]]}",13
+lgp-test-3x6-21,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "animals", "People own unique car models", "book genres", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "Meredith", "bird", "toyota camry", "romance", "desert", "toyota"], ["2", "Arnold", "Bella", "cat", "tesla model 3", "science fiction", "watermelon", "bella"], ["3", "Eric", "Fred", "horse", "ford f150", "mystery", "cherry", "desert"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-13,"{"header": ["House", "unique name", "unique level of education", "unique hobby", "Each mother is accompanied by their child", "music genres", "unique type of pet", "names"], "rows": [["1", "Eric", "associate", "gardening", "Fred", "pop", "cat", "bella"], ["2", "Arnold", "high school", "photography", "Bella", "rock", "dog", "eric"]]}",70
+lgp-test-2x5-27,"{"header": ["House", "unique name", "favorite color", "People have unique hair colors", "unique level of education", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "red", "brown", "associate", "pall mall", "arnold"], ["2", "Arnold", "yellow", "black", "high school", "prince", "prince"]]}",24
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-28,"{"header": ["House", "unique name", "People own unique car models", "animals", "sports", "unique for lunch", "names"], "rows": [["1", "Eric", "tesla model 3", "cat", "soccer", "grilled cheese", "arnold"], ["2", "Arnold", "ford f150", "horse", "basketball", "pizza", "ford"]]}",15
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-39,"{"header": ["House", "unique name", "unique for lunch", "unique birthday month", "names"], "rows": [["1", "Arnold", "grilled cheese", "april", "eric"], ["2", "Eric", "pizza", "sept", "april"]]}",11
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-22,"{"header": ["House", "unique name", "music genres", "Each mother is accompanied by their child", "book genres", "names"], "rows": [["1", "Arnold", "pop", "Fred", "romance", "peter"], ["2", "Eric", "rock", "Meredith", "science fiction", "fred"], ["3", "Peter", "classical", "Bella", "mystery", "meredith"]]}",317
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-31,"{"header": ["House", "unique name", "music genres", "names"], "rows": [["1", "Arnold", "classical", "peter"], ["2", "Peter", "pop", "arnold"], ["3", "Eric", "rock", "eric"]]}",13
+lgp-test-5x2-25,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "cherry", "lime"], ["2", "Arnold", "lime", "dragonfruit"], ["3", "Bob", "dragonfruit", "eric"], ["4", "Alice", "watermelon", "bob"], ["5", "Eric", "desert", "alice"]]}",179
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-14,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Everyone has a favorite smoothie", "book genres", "names"], "rows": [["1", "Peter", "Kailyn", "dragonfruit", "fantasy", "dragonfruit"], ["2", "Arnold", "Holly", "desert", "romance", "alice"], ["3", "Eric", "Aniya", "watermelon", "mystery", "watermelon"], ["4", "Alice", "Janelle", "cherry", "science fiction", "cherry"]]}",25
+lgp-test-2x4-39,"{"header": ["House", "unique name", "unique for lunch", "unique type of pet", "occupation", "names"], "rows": [["1", "Arnold", "pizza", "cat", "doctor", "arnold"], ["2", "Eric", "grilled cheese", "dog", "engineer", "eric"]]}",19
+lgp-test-4x3-37,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "unique hobby", "names"], "rows": [["1", "Eric", "desert", "cooking", "desert"], ["2", "Alice", "dragonfruit", "photography", "watermelon"], ["3", "Arnold", "watermelon", "gardening", "eric"], ["4", "Peter", "cherry", "painting", "peter"]]}",5744
+lgp-test-2x5-24,"{"header": ["House", "unique name", "unique level of education", "Each mother is accompanied by their child", "book genres", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "associate", "Fred", "science fiction", "cherry", "fred"], ["2", "Eric", "high school", "Bella", "mystery", "desert", "arnold"]]}",15
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x4-30,"{"header": ["House", "unique name", "book genres", "unique phone models", "unique favorite drink", "names"], "rows": [["1", "Eric", "historical fiction", "iphone 13", "tea", "xiaomi"], ["2", "Carol", "science fiction", "google pixel 6", "water", "mi"], ["3", "Alice", "fantasy", "samsung galaxy s21", "boba tea", "eric"], ["4", "Arnold", "romance", "oneplus 9", "milk", "arnold"], ["5", "Peter", "mystery", "huawei p50", "root beer", "alice"], ["6", "Bob", "biography", "xiaomi mi 11", "coffee", "peter"]]}",37
+lgp-test-2x5-1,"{"header": ["House", "unique name", "animals", "unique phone models", "unique type of pet", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "cat", "samsung galaxy s21", "cat", "pall mall", "arnold"], ["2", "Eric", "horse", "iphone 13", "dog", "prince", "samsung"]]}",15
+lgp-test-5x2-5,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Peter", "mountain", "bob"], ["2", "Eric", "beach", "peter"], ["3", "Bob", "cruise", "eric"], ["4", "Arnold", "camping", "arnold"], ["5", "Alice", "city", "alice"]]}",9140
+lgp-test-2x3-21,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "prince", "daffodils", "arnold"], ["2", "Eric", "pall mall", "carnations", "eric"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-5,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Eric", "victorian", "victorian"], ["2", "Arnold", "colonial", "eric"]]}",9
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-39,"{"header": ["House", "unique name", "unique for lunch", "names"], "rows": [["1", "Arnold", "pizza", "alice"], ["2", "Peter", "grilled cheese", "eric"], ["3", "Eric", "spaghetti", "peter"], ["4", "Alice", "stew", "arnold"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-33,"{"header": ["House", "unique name", "favorite color", "Everyone has a favorite smoothie", "Each mother is accompanied by their child", "unique birthday month", "People own unique car models", "names"], "rows": [["1", "Eric", "yellow", "desert", "Fred", "sept", "ford f150", "eric"], ["2", "Arnold", "red", "cherry", "Bella", "april", "tesla model 3", "tesla"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-26,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Peter", "cruise", "bob"], ["2", "Bob", "beach", "alice"], ["3", "Arnold", "city", "arnold"], ["4", "Alice", "mountain", "there"], ["5", "Eric", "camping", "peter"]]}",10635
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-17,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "pall mall", "pall"], ["2", "Eric", "prince", "arnold"]]}",9
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x4-34,"{"header": ["House", "unique name", "nationalities", "book genres", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Peter", "dane", "historical fiction", "Holly", "janelle"], ["2", "Alice", "brit", "mystery", "Aniya", "alice"], ["3", "Eric", "norwegian", "romance", "Penny", "carol"], ["4", "Arnold", "swede", "fantasy", "Kailyn", "peter"], ["5", "Bob", "german", "science fiction", "Sarah", "norwegian"], ["6", "Carol", "chinese", "biography", "Janelle", "british"]]}",37
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-31,"{"header": ["House", "unique name", "People own unique car models", "unique phone models", "unique favorite drink", "unique birthday month", "nationalities", "names"], "rows": [["1", "Eric", "ford f150", "iphone 13", "tea", "april", "brit", "ford"], ["2", "Arnold", "tesla model 3", "samsung galaxy s21", "water", "sept", "dane", "british"]]}",17
+lgp-test-2x2-4,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Arnold", "tesla model 3", "ford"], ["2", "Eric", "ford f150", "arnold"]]}",9
+lgp-test-4x3-3,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "People have unique heights", "names"], "rows": [["1", "Peter", "blue master", "tall", "dunhill"], ["2", "Arnold", "pall mall", "very short", "prince"], ["3", "Eric", "prince", "average", "alice"], ["4", "Alice", "dunhill", "short", "pall"]]}",6330
+lgp-test-2x2-20,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "Fred", "fred"], ["2", "Arnold", "Bella", "eric"]]}",9
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-11,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Alice", "desert", "dragonfruit"], ["2", "Arnold", "watermelon", "desert"], ["3", "Peter", "dragonfruit", "alice"], ["4", "Eric", "cherry", "peter"]]}",1120
+lgp-test-3x4-21,"{"header": ["House", "unique name", "music genres", "animals", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "pop", "cat", "Meredith", "meredith"], ["2", "Eric", "rock", "bird", "Bella", "eric"], ["3", "Peter", "classical", "horse", "Fred", "bella"]]}",55
+lgp-test-3x5-13,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "They all have a unique favorite flower", "animals", "nationalities", "names"], "rows": [["1", "Eric", "victorian", "daffodils", "cat", "swede", "british"], ["2", "Peter", "colonial", "carnations", "horse", "dane", "eric"], ["3", "Arnold", "ranch", "lilies", "bird", "brit", "arnold"]]}",468
+lgp-test-2x6-32,"{"header": ["House", "unique name", "They all have a unique favorite flower", "book genres", "nationalities", "animals", "music genres", "names"], "rows": [["1", "Arnold", "carnations", "mystery", "dane", "cat", "rock", "british"], ["2", "Eric", "daffodils", "science fiction", "brit", "horse", "pop", "dane"]]}",64
+lgp-test-5x3-24,"{"header": ["House", "unique name", "unique hobby", "unique type of pet", "names"], "rows": [["1", "Arnold", "cooking", "hamster", "eric"], ["2", "Bob", "painting", "bird", "alice"], ["3", "Eric", "gardening", "cat", "peter"], ["4", "Alice", "photography", "fish", "bob"], ["5", "Peter", "knitting", "dog", "arnold"]]}",38598
+lgp-test-3x3-22,"{"header": ["House", "unique name", "People have unique hair colors", "animals", "names"], "rows": [["1", "Peter", "black", "cat", "there"], ["2", "Eric", "brown", "horse", "eric"], ["3", "Arnold", "blonde", "bird", "arnold"]]}",60
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-32,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "prince", "blue"], ["2", "Peter", "blue master", "master"], ["3", "Eric", "pall mall", "arnold"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-4,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Alice", "huawei p50", "alice"], ["2", "Arnold", "iphone 13", "huawei"], ["3", "Carol", "xiaomi mi 11", "google"], ["4", "Peter", "oneplus 9", "pixel"], ["5", "Bob", "samsung galaxy s21", "there"], ["6", "Eric", "google pixel 6", "xiaomi"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-0,"{"header": ["House", "unique name", "favorite color", "unique phone models", "They all have a unique favorite flower", "unique favorite drink", "unique level of education", "names"], "rows": [["1", "Eric", "white", "google pixel 6", "lilies", "water", "bachelor", "google"], ["2", "Arnold", "red", "samsung galaxy s21", "daffodils", "tea", "associate", "eric"], ["3", "Peter", "yellow", "iphone 13", "carnations", "milk", "high school", "peter"]]}",1313
+lgp-test-6x2-38,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "Samantha", "arnold"], ["2", "Peter", "Alice", "peter"], ["3", "Carol", "Timothy", "bella"], ["4", "Alice", "Fred", "carol"], ["5", "Arnold", "Bella", "meredith"], ["6", "Bob", "Meredith", "fred"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-1,"{"header": ["House", "unique name", "unique hobby", "names"], "rows": [["1", "Peter", "cooking", "peter"], ["2", "Eric", "photography", "arnold"], ["3", "Arnold", "gardening", "eric"]]}",37
+lgp-test-2x2-13,"{"header": ["House", "unique name", "unique level of education", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-39,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "prince", "arnold"], ["2", "Arnold", "blue master", "mall"], ["3", "Eric", "pall mall", "there"]]}",13
+lgp-test-2x4-4,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "People have unique heights", "unique level of education", "names"], "rows": [["1", "Eric", "victorian", "short", "associate", "victorian"], ["2", "Arnold", "colonial", "very short", "high school", "eric"]]}",34
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-12,"{"header": ["House", "unique name", "unique level of education", "Each mother is accompanied by their child", "Each person prefers a unique type of vacation", "occupation", "Each person lives in a unique style of house", "names"], "rows": [["1", "Eric", "high school", "Fred", "mountain", "engineer", "victorian", "victorian"], ["2", "Arnold", "associate", "Bella", "beach", "doctor", "colonial", "arnold"]]}",20
+lgp-test-3x4-9,"{"header": ["House", "unique name", "unique birthday month", "nationalities", "favorite color", "names"], "rows": [["1", "Eric", "jan", "brit", "yellow", "dane"], ["2", "Peter", "sept", "swede", "white", "april"], ["3", "Arnold", "april", "dane", "red", "arnold"]]}",19
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-9,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "animals", "People have unique heights", "Each mother is accompanied by their child", "names"], "rows": [["1", "Peter", "mountain", "cat", "short", "Fred", "arnold"], ["2", "Eric", "beach", "horse", "very short", "Meredith", "meredith"], ["3", "Arnold", "city", "bird", "average", "Bella", "fred"]]}",1169
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-38,"{"header": ["House", "unique name", "unique favorite drink", "unique type of pet", "unique hobby", "names"], "rows": [["1", "Eric", "water", "cat", "photography", "there"], ["2", "Arnold", "tea", "fish", "gardening", "peter"], ["3", "Peter", "milk", "dog", "cooking", "eric"]]}",44
+lgp-test-4x3-14,"{"header": ["House", "unique name", "unique hobby", "animals", "names"], "rows": [["1", "Arnold", "painting", "horse", "there"], ["2", "Peter", "gardening", "bird", "eric"], ["3", "Eric", "photography", "fish", "alice"], ["4", "Alice", "cooking", "cat", "arnold"]]}",1129
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x3-6,"{"header": ["House", "unique name", "nationalities", "Each person lives in a unique style of house", "names"], "rows": [["1", "Carol", "chinese", "craftsman", "chinese"], ["2", "Eric", "german", "colonial", "swedish"], ["3", "Arnold", "dane", "mediterranean", "german"], ["4", "Peter", "norwegian", "victorian", "victorian"], ["5", "Alice", "swede", "modern", "craftsman"], ["6", "Bob", "brit", "ranch", "eric"]]}",45702
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-20,"{"header": ["House", "unique name", "animals", "favorite color", "Everyone has a favorite smoothie", "book genres", "unique for lunch", "names"], "rows": [["1", "Arnold", "horse", "yellow", "cherry", "science fiction", "pizza", "desert"], ["2", "Eric", "cat", "red", "desert", "mystery", "grilled cheese", "eric"]]}",21
+lgp-test-4x5-37,"{"header": ["House", "unique name", "sports", "Each person lives in a unique style of house", "Everyone has a favorite smoothie", "occupation", "names"], "rows": [["1", "Alice", "tennis", "victorian", "watermelon", "teacher", "alice"], ["2", "Arnold", "swimming", "craftsman", "cherry", "doctor", "victorian"], ["3", "Peter", "soccer", "colonial", "desert", "engineer", "desert"], ["4", "Eric", "basketball", "ranch", "dragonfruit", "artist", "dragonfruit"]]}",4340
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-23,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "blue master", "blue"], ["2", "Eric", "dunhill", "there"], ["3", "Alice", "prince", "prince"], ["4", "Peter", "pall mall", "peter"]]}",5053
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-39,"{"header": ["House", "unique name", "book genres", "Each person prefers a unique type of vacation", "Everyone has a favorite smoothie", "Each mother is accompanied by their child", "sports", "names"], "rows": [["1", "Arnold", "science fiction", "mountain", "desert", "Fred", "basketball", "bella"], ["2", "Eric", "mystery", "beach", "cherry", "Bella", "soccer", "fred"]]}",17
+lgp-test-4x2-25,"{"header": ["House", "unique name", "unique level of education", "names"], "rows": [["1", "Alice", "high school", "arnold"], ["2", "Arnold", "associate", "alice"], ["3", "Peter", "bachelor", "eric"], ["4", "Eric", "master", "peter"]]}",235
+lgp-test-4x5-14,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Everyone has a favorite smoothie", "People have unique heights", "unique level of education", "names"], "rows": [["1", "Peter", "Janelle", "watermelon", "tall", "high school", "janelle"], ["2", "Alice", "Holly", "dragonfruit", "average", "associate", "desert"], ["3", "Eric", "Aniya", "desert", "short", "master", "eric"], ["4", "Arnold", "Kailyn", "cherry", "very short", "bachelor", "cherry"]]}",29
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-12,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "unique birthday month", "Everyone has a favorite smoothie", "unique for lunch", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "Meredith", "jan", "desert", "spaghetti", "Janelle", "arnold"], ["2", "Peter", "Fred", "april", "cherry", "grilled cheese", "Aniya", "holly"], ["3", "Eric", "Bella", "sept", "watermelon", "pizza", "Holly", "peter"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-0,"{"header": ["House", "unique name", "occupation", "names"], "rows": [["1", "Peter", "engineer", "arnold"], ["2", "Arnold", "artist", "eric"], ["3", "Alice", "teacher", "alice"], ["4", "Eric", "doctor", "peter"]]}",246
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x4-30,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Each mother is accompanied by their child", "sports", "names"], "rows": [["1", "Peter", "Janelle", "Meredith", "tennis", "holly"], ["2", "Eric", "Penny", "Bella", "soccer", "samantha"], ["3", "Alice", "Kailyn", "Timothy", "basketball", "aniya"], ["4", "Bob", "Holly", "Fred", "baseball", "bob"], ["5", "Arnold", "Aniya", "Samantha", "swimming", "timothy"]]}",77
+lgp-test-2x3-1,"{"header": ["House", "unique name", "People own unique car models", "animals", "names"], "rows": [["1", "Arnold", "ford f150", "cat", "eric"], ["2", "Eric", "tesla model 3", "horse", "tesla"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-19,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "People own unique car models", "unique phone models", "music genres", "names"], "rows": [["1", "Eric", "Bella", "tesla model 3", "iphone 13", "pop", "samsung"], ["2", "Arnold", "Fred", "ford f150", "samsung galaxy s21", "rock", "galaxy"]]}",15
+lgp-test-3x6-25,"{"header": ["House", "unique name", "unique hobby", "Each person prefers a unique type of vacation", "Everyone has a unique favorite cigar", "The mothers' names in different houses are unique", "People have unique heights", "names"], "rows": [["1", "Arnold", "gardening", "mountain", "pall mall", "Janelle", "short", "eric"], ["2", "Peter", "cooking", "beach", "prince", "Holly", "average", "pall"], ["3", "Eric", "photography", "city", "blue master", "Aniya", "very short", "aniya"]]}",921
+lgp-test-4x3-16,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "Each person lives in a unique style of house", "names"], "rows": [["1", "Alice", "Samantha", "craftsman", "victorian"], ["2", "Peter", "Fred", "ranch", "samantha"], ["3", "Arnold", "Meredith", "victorian", "arnold"], ["4", "Eric", "Bella", "colonial", "peter"]]}",21
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-13,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Peter", "mediterranean", "alice"], ["2", "Alice", "modern", "mediterranean"], ["3", "Bob", "craftsman", "craftsman"], ["4", "Eric", "victorian", "victorian"], ["5", "Arnold", "ranch", "bob"], ["6", "Carol", "colonial", "peter"]]}",123
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-0,"{"header": ["House", "unique name", "book genres", "Everyone has a favorite smoothie", "unique birthday month", "People have unique heights", "names"], "rows": [["1", "Peter", "science fiction", "desert", "april", "average", "cherry"], ["2", "Arnold", "mystery", "cherry", "jan", "very short", "arnold"], ["3", "Eric", "romance", "watermelon", "sept", "short", "january"]]}",13014
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-6,"{"header": ["House", "unique name", "sports", "occupation", "People own unique car models", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "tennis", "engineer", "tesla model 3", "blue master", "ford"], ["2", "Eric", "basketball", "teacher", "ford f150", "prince", "tesla"], ["3", "Arnold", "soccer", "doctor", "toyota camry", "pall mall", "pall"]]}",22
+lgp-test-2x5-6,"{"header": ["House", "unique name", "unique for lunch", "book genres", "Everyone has a favorite smoothie", "They all have a unique favorite flower", "names"], "rows": [["1", "Eric", "pizza", "science fiction", "cherry", "carnations", "arnold"], ["2", "Arnold", "grilled cheese", "mystery", "desert", "daffodils", "desert"]]}",51
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-17,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Arnold", "bmw 3 series", "carol"], ["2", "Carol", "honda civic", "arnold"], ["3", "Bob", "toyota camry", "toyota"], ["4", "Peter", "chevrolet silverado", "civic"], ["5", "Eric", "ford f150", "tesla"], ["6", "Alice", "tesla model 3", "model"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-15,"{"header": ["House", "unique name", "book genres", "names"], "rows": [["1", "Alice", "science fiction", "eric"], ["2", "Arnold", "romance", "peter"], ["3", "Peter", "mystery", "alice"], ["4", "Eric", "fantasy", "arnold"]]}",712
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-33,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "nationalities", "unique type of pet", "names"], "rows": [["1", "Arnold", "victorian", "brit", "fish", "eric"], ["2", "Peter", "colonial", "swede", "dog", "british"], ["3", "Eric", "ranch", "dane", "cat", "peter"]]}",707
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-2,"{"header": ["House", "unique name", "unique favorite drink", "Everyone has a favorite smoothie", "favorite color", "Everyone has a unique favorite cigar", "People own unique car models", "names"], "rows": [["1", "Arnold", "water", "desert", "yellow", "pall mall", "tesla model 3", "pall"], ["2", "Eric", "tea", "cherry", "red", "prince", "ford f150", "eric"]]}",22
+lgp-test-3x4-24,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "People have unique heights", "sports", "names"], "rows": [["1", "Peter", "Holly", "very short", "basketball", "arnold"], ["2", "Arnold", "Janelle", "short", "soccer", "holly"], ["3", "Eric", "Aniya", "average", "tennis", "eric"]]}",234
+lgp-test-3x4-6,"{"header": ["House", "unique name", "People own unique car models", "People have unique hair colors", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Eric", "toyota camry", "blonde", "watermelon", "tesla"], ["2", "Arnold", "tesla model 3", "brown", "cherry", "eric"], ["3", "Peter", "ford f150", "black", "desert", "desert"]]}",2574
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-35,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Eric", "ford f150", "series"], ["2", "Bob", "honda civic", "eric"], ["3", "Arnold", "toyota camry", "peter"], ["4", "Peter", "bmw 3 series", "bob"], ["5", "Alice", "tesla model 3", "alice"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-37,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "blue master", "pall"], ["2", "Arnold", "pall mall", "prince"], ["3", "Eric", "prince", "peter"]]}",13
+lgp-test-3x3-25,"{"header": ["House", "unique name", "unique hobby", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "photography", "Aniya", "arnold"], ["2", "Eric", "cooking", "Janelle", "there"], ["3", "Peter", "gardening", "Holly", "eric"]]}",16
+lgp-test-2x4-10,"{"header": ["House", "unique name", "unique birthday month", "People own unique car models", "nationalities", "names"], "rows": [["1", "Arnold", "april", "ford f150", "dane", "dane"], ["2", "Eric", "sept", "tesla model 3", "brit", "tesla"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-14,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "People own unique car models", "names"], "rows": [["1", "Eric", "pall mall", "tesla model 3", "ford"], ["2", "Arnold", "prince", "ford f150", "tesla"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-6,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Alice", "blue master", "prince"], ["2", "Eric", "dunhill", "pall"], ["3", "Peter", "pall mall", "arnold"], ["4", "Arnold", "prince", "eric"]]}",17
+lgp-test-3x6-20,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "People have unique hair colors", "unique phone models", "Each person lives in a unique style of house", "People have unique heights", "names"], "rows": [["1", "Peter", "watermelon", "black", "google pixel 6", "colonial", "short", "eric"], ["2", "Arnold", "desert", "blonde", "iphone 13", "ranch", "average", "samsung"], ["3", "Eric", "cherry", "brown", "samsung galaxy s21", "victorian", "very short", "galaxy"]]}",25
+lgp-test-2x5-4,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "nationalities", "unique level of education", "People own unique car models", "names"], "rows": [["1", "Eric", "prince", "dane", "associate", "ford f150", "eric"], ["2", "Arnold", "pall mall", "brit", "high school", "tesla model 3", "british"]]}",15
+lgp-test-4x4-11,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "animals", "unique level of education", "names"], "rows": [["1", "Eric", "Bella", "cat", "bachelor", "bella"], ["2", "Arnold", "Fred", "horse", "associate", "eric"], ["3", "Peter", "Samantha", "fish", "master", "arnold"], ["4", "Alice", "Meredith", "bird", "high school", "fred"]]}",5152
+lgp-test-6x2-2,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Alice", "Holly", "carol"], ["2", "Bob", "Sarah", "aniya"], ["3", "Carol", "Penny", "eric"], ["4", "Peter", "Kailyn", "peter"], ["5", "Eric", "Aniya", "holly"], ["6", "Arnold", "Janelle", "arnold"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-14,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "book genres", "unique type of pet", "names"], "rows": [["1", "Peter", "Janelle", "romance", "cat", "there"], ["2", "Eric", "Aniya", "science fiction", "dog", "holly"], ["3", "Arnold", "Holly", "mystery", "fish", "janelle"]]}",208
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-5,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "animals", "unique birthday month", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "Holly", "horse", "sept", "daffodils", "september"], ["2", "Eric", "Aniya", "cat", "april", "carnations", "arnold"]]}",36
+lgp-test-2x2-23,"{"header": ["House", "unique name", "unique birthday month", "names"], "rows": [["1", "Eric", "sept", "april"], ["2", "Arnold", "april", "eric"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-21,"{"header": ["House", "unique name", "People own unique car models", "The mothers' names in different houses are unique", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "ford f150", "Aniya", "desert", "eric"], ["2", "Eric", "tesla model 3", "Holly", "cherry", "desert"]]}",13
+lgp-test-2x4-35,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "music genres", "unique birthday month", "names"], "rows": [["1", "Eric", "colonial", "pop", "sept", "arnold"], ["2", "Arnold", "victorian", "rock", "april", "april"]]}",26
+lgp-test-4x2-35,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Alice", "swede", "eric"], ["2", "Eric", "dane", "swedish"], ["3", "Peter", "norwegian", "dane"], ["4", "Arnold", "brit", "british"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-0,"{"header": ["House", "unique name", "book genres", "unique birthday month", "favorite color", "People have unique heights", "names"], "rows": [["1", "Eric", "mystery", "april", "yellow", "very short", "april"], ["2", "Arnold", "science fiction", "sept", "red", "short", "arnold"]]}",74
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-7,"{"header": ["House", "unique name", "nationalities", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Arnold", "brit", "mountain", "dane"], ["2", "Eric", "dane", "beach", "british"]]}",15
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-37,"{"header": ["House", "unique name", "nationalities", "People have unique hair colors", "unique hobby", "names"], "rows": [["1", "Eric", "swede", "blonde", "cooking", "dane"], ["2", "Peter", "dane", "brown", "gardening", "british"], ["3", "Arnold", "brit", "black", "photography", "swedish"]]}",19
+lgp-test-3x5-4,"{"header": ["House", "unique name", "animals", "unique for lunch", "unique favorite drink", "occupation", "names"], "rows": [["1", "Eric", "bird", "grilled cheese", "water", "teacher", "peter"], ["2", "Arnold", "cat", "spaghetti", "milk", "doctor", "eric"], ["3", "Peter", "horse", "pizza", "tea", "engineer", "arnold"]]}",1049
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-25,"{"header": ["House", "unique name", "unique birthday month", "unique favorite drink", "unique type of pet", "People have unique hair colors", "names"], "rows": [["1", "Eric", "april", "water", "cat", "brown", "april"], ["2", "Arnold", "sept", "tea", "dog", "black", "eric"]]}",94
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-24,"{"header": ["House", "unique name", "occupation", "Each mother is accompanied by their child", "unique for lunch", "names"], "rows": [["1", "Alice", "doctor", "Meredith", "spaghetti", "samantha"], ["2", "Peter", "teacher", "Fred", "stew", "peter"], ["3", "Eric", "engineer", "Bella", "grilled cheese", "bella"], ["4", "Arnold", "artist", "Samantha", "pizza", "meredith"]]}",3693
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-16,"{"header": ["House", "unique name", "unique favorite drink", "nationalities", "unique level of education", "Each person lives in a unique style of house", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Eric", "tea", "dane", "high school", "victorian", "watermelon", "there"], ["2", "Peter", "water", "brit", "associate", "colonial", "cherry", "dane"], ["3", "Arnold", "milk", "swede", "bachelor", "ranch", "desert", "desert"]]}",6690
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-25,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Each mother is accompanied by their child", "animals", "unique favorite drink", "names"], "rows": [["1", "Peter", "Holly", "Fred", "cat", "tea", "peter"], ["2", "Arnold", "Janelle", "Meredith", "bird", "water", "meredith"], ["3", "Eric", "Aniya", "Bella", "horse", "milk", "fred"]]}",22
+lgp-test-4x2-3,"{"header": ["House", "unique name", "unique type of pet", "names"], "rows": [["1", "Arnold", "cat", "alice"], ["2", "Eric", "dog", "peter"], ["3", "Peter", "fish", "arnold"], ["4", "Alice", "bird", "eric"]]}",17
+lgp-test-3x2-26,"{"header": ["House", "unique name", "People have unique hair colors", "names"], "rows": [["1", "Eric", "blonde", "eric"], ["2", "Arnold", "black", "arnold"], ["3", "Peter", "brown", "peter"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-4,"{"header": ["House", "unique name", "unique favorite drink", "favorite color", "The mothers' names in different houses are unique", "music genres", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "water", "red", "Aniya", "pop", "pall mall", "holly"], ["2", "Eric", "tea", "yellow", "Holly", "rock", "prince", "prince"]]}",23
+lgp-test-3x5-15,"{"header": ["House", "unique name", "music genres", "unique type of pet", "The mothers' names in different houses are unique", "animals", "names"], "rows": [["1", "Peter", "classical", "cat", "Janelle", "cat", "aniya"], ["2", "Arnold", "pop", "fish", "Aniya", "bird", "holly"], ["3", "Eric", "rock", "dog", "Holly", "horse", "eric"]]}",149
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-7,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "People have unique hair colors", "names"], "rows": [["1", "Peter", "victorian", "blonde", "alice"], ["2", "Eric", "craftsman", "black", "peter"], ["3", "Arnold", "ranch", "brown", "craftsman"], ["4", "Alice", "colonial", "red", "victorian"]]}",12271
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-0,"{"header": ["House", "unique name", "nationalities", "animals", "book genres", "names"], "rows": [["1", "Arnold", "dane", "bird", "romance", "swedish"], ["2", "Peter", "swede", "horse", "science fiction", "british"], ["3", "Eric", "brit", "cat", "mystery", "eric"]]}",19
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-34,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "sports", "unique favorite drink", "Each person lives in a unique style of house", "names"], "rows": [["1", "Arnold", "cherry", "basketball", "tea", "colonial", "cherry"], ["2", "Eric", "desert", "soccer", "water", "victorian", "desert"]]}",109
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-23,"{"header": ["House", "unique name", "unique level of education", "People have unique heights", "unique hobby", "book genres", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "associate", "short", "photography", "mystery", "watermelon", "watermelon"], ["2", "Arnold", "bachelor", "very short", "cooking", "romance", "cherry", "cherry"], ["3", "Eric", "high school", "average", "gardening", "science fiction", "desert", "desert"]]}",13249
+lgp-test-6x2-1,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Bob", "blueberry", "cherry"], ["2", "Alice", "dragonfruit", "peter"], ["3", "Carol", "desert", "watermelon"], ["4", "Arnold", "watermelon", "blueberry"], ["5", "Eric", "lime", "lime"], ["6", "Peter", "cherry", "alice"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-16,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique birthday month", "unique hobby", "music genres", "names"], "rows": [["1", "Alice", "pall mall", "sept", "gardening", "pop", "april"], ["2", "Arnold", "dunhill", "april", "photography", "jazz", "alice"], ["3", "Peter", "blue master", "feb", "cooking", "classical", "february"], ["4", "Eric", "prince", "jan", "painting", "rock", "dunhill"]]}",17674
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-24,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "favorite color", "They all have a unique favorite flower", "book genres", "names"], "rows": [["1", "Eric", "cherry", "green", "roses", "science fiction", "cherry"], ["2", "Alice", "desert", "white", "carnations", "romance", "peter"], ["3", "Arnold", "dragonfruit", "yellow", "daffodils", "fantasy", "dragonfruit"], ["4", "Peter", "watermelon", "red", "lilies", "mystery", "eric"]]}",47056
+lgp-test-3x5-36,"{"header": ["House", "unique name", "unique level of education", "unique for lunch", "Everyone has a unique favorite cigar", "unique type of pet", "names"], "rows": [["1", "Peter", "associate", "spaghetti", "prince", "dog", "pall"], ["2", "Arnold", "high school", "grilled cheese", "pall mall", "fish", "blue"], ["3", "Eric", "bachelor", "pizza", "blue master", "cat", "master"]]}",2011
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x4-31,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "Each mother is accompanied by their child", "nationalities", "names"], "rows": [["1", "Alice", "cruise", "Bella", "dane", "norwegian"], ["2", "Bob", "city", "Samantha", "norwegian", "peter"], ["3", "Arnold", "camping", "Fred", "brit", "swedish"], ["4", "Eric", "beach", "Meredith", "german", "alice"], ["5", "Peter", "mountain", "Timothy", "swede", "samantha"]]}",31
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-19,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "book genres", "names"], "rows": [["1", "Eric", "desert", "science fiction", "cherry"], ["2", "Arnold", "cherry", "romance", "desert"], ["3", "Peter", "watermelon", "mystery", "arnold"]]}",41
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-23,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "unique for lunch", "names"], "rows": [["1", "Eric", "Bella", "grilled cheese", "fred"], ["2", "Arnold", "Fred", "pizza", "arnold"]]}",15
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-19,"{"header": ["House", "unique name", "occupation", "unique level of education", "Everyone has a favorite smoothie", "unique hobby", "names"], "rows": [["1", "Arnold", "doctor", "high school", "desert", "cooking", "desert"], ["2", "Peter", "engineer", "bachelor", "cherry", "gardening", "arnold"], ["3", "Eric", "teacher", "associate", "watermelon", "photography", "cherry"]]}",1989
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-26,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "People own unique car models", "unique hobby", "sports", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "prince", "tesla model 3", "gardening", "basketball", "Aniya", "tesla"], ["2", "Eric", "pall mall", "ford f150", "photography", "soccer", "Holly", "aniya"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-23,"{"header": ["House", "unique name", "unique birthday month", "book genres", "Each person lives in a unique style of house", "They all have a unique favorite flower", "names"], "rows": [["1", "Peter", "april", "mystery", "ranch", "carnations", "arnold"], ["2", "Arnold", "jan", "romance", "victorian", "lilies", "january"], ["3", "Eric", "sept", "science fiction", "colonial", "daffodils", "september"]]}",45
+lgp-test-3x6-17,"{"header": ["House", "unique name", "unique birthday month", "unique type of pet", "unique for lunch", "Each person prefers a unique type of vacation", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "jan", "cat", "pizza", "beach", "desert", "eric"], ["2", "Eric", "april", "dog", "spaghetti", "city", "cherry", "september"], ["3", "Arnold", "sept", "fish", "grilled cheese", "mountain", "watermelon", "watermelon"]]}",1078
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-8,"{"header": ["House", "unique name", "unique birthday month", "book genres", "Everyone has a unique favorite cigar", "animals", "People own unique car models", "names"], "rows": [["1", "Arnold", "sept", "mystery", "blue master", "bird", "toyota camry", "blue"], ["2", "Peter", "april", "science fiction", "prince", "cat", "ford f150", "arnold"], ["3", "Eric", "jan", "romance", "pall mall", "horse", "tesla model 3", "toyota"]]}",3653
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-35,"{"header": ["House", "unique name", "music genres", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "pop", "Fred", "eric"], ["2", "Arnold", "rock", "Bella", "arnold"], ["3", "Peter", "classical", "Meredith", "peter"]]}",16
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-26,"{"header": ["House", "unique name", "unique phone models", "Each person lives in a unique style of house", "names"], "rows": [["1", "Arnold", "iphone 13", "ranch", "victorian"], ["2", "Eric", "google pixel 6", "victorian", "peter"], ["3", "Peter", "samsung galaxy s21", "colonial", "eric"]]}",16
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-22,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Arnold", "ford f150", "eric"], ["2", "Eric", "tesla model 3", "model"]]}",9
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-17,"{"header": ["House", "unique name", "animals", "Everyone has a unique favorite cigar", "nationalities", "names"], "rows": [["1", "Eric", "horse", "prince", "brit", "prince"], ["2", "Arnold", "cat", "pall mall", "dane", "arnold"]]}",16
+lgp-test-3x4-15,"{"header": ["House", "unique name", "People own unique car models", "book genres", "occupation", "names"], "rows": [["1", "Peter", "toyota camry", "mystery", "teacher", "arnold"], ["2", "Eric", "tesla model 3", "romance", "engineer", "toyota"], ["3", "Arnold", "ford f150", "science fiction", "doctor", "camry"]]}",788
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-37,"{"header": ["House", "unique name", "sports", "People have unique heights", "unique type of pet", "People own unique car models", "Each person lives in a unique style of house", "names"], "rows": [["1", "Arnold", "soccer", "short", "dog", "tesla model 3", "colonial", "tesla"], ["2", "Eric", "basketball", "very short", "cat", "ford f150", "victorian", "model"]]}",17
+lgp-test-5x4-27,"{"header": ["House", "unique name", "unique birthday month", "Everyone has a unique favorite cigar", "unique favorite drink", "names"], "rows": [["1", "Peter", "april", "pall mall", "water", "eric"], ["2", "Alice", "feb", "prince", "coffee", "pall"], ["3", "Eric", "mar", "dunhill", "tea", "april"], ["4", "Bob", "jan", "blends", "milk", "dunhill"], ["5", "Arnold", "sept", "blue master", "root beer", "peter"]]}",31
+lgp-test-3x3-21,"{"header": ["House", "unique name", "book genres", "unique for lunch", "names"], "rows": [["1", "Eric", "romance", "grilled cheese", "eric"], ["2", "Peter", "mystery", "spaghetti", "peter"], ["3", "Arnold", "science fiction", "pizza", "there"]]}",35
+lgp-test-3x4-30,"{"header": ["House", "unique name", "unique level of education", "Everyone has a unique favorite cigar", "favorite color", "names"], "rows": [["1", "Eric", "bachelor", "prince", "yellow", "prince"], ["2", "Peter", "high school", "pall mall", "white", "master"], ["3", "Arnold", "associate", "blue master", "red", "pall"]]}",22
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-0,"{"header": ["House", "unique name", "They all have a unique favorite flower", "Each person prefers a unique type of vacation", "book genres", "Everyone has a favorite smoothie", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "carnations", "mountain", "science fiction", "cherry", "prince", "prince"], ["2", "Arnold", "daffodils", "beach", "mystery", "desert", "pall mall", "desert"]]}",24
+lgp-test-4x2-2,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Arnold", "ranch", "craftsman"], ["2", "Peter", "victorian", "victorian"], ["3", "Eric", "colonial", "arnold"], ["4", "Alice", "craftsman", "eric"]]}",1149
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-16,"{"header": ["House", "unique name", "unique level of education", "People have unique heights", "Each person lives in a unique style of house", "favorite color", "sports", "names"], "rows": [["1", "Eric", "high school", "short", "victorian", "red", "basketball", "eric"], ["2", "Arnold", "associate", "very short", "colonial", "yellow", "soccer", "victorian"]]}",61
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-18,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Bob", "city", "arnold"], ["2", "Eric", "cultural", "peter"], ["3", "Alice", "beach", "alice"], ["4", "Carol", "camping", "carol"], ["5", "Peter", "mountain", "eric"], ["6", "Arnold", "cruise", "bob"]]}",15733
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-5,"{"header": ["House", "unique name", "animals", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Peter", "cat", "Penny", "janelle"], ["2", "Eric", "horse", "Holly", "penny"], ["3", "Alice", "fish", "Janelle", "there"], ["4", "Bob", "dog", "Kailyn", "kailyn"], ["5", "Arnold", "bird", "Aniya", "bob"]]}",26
+lgp-test-2x2-14,"{"header": ["House", "unique name", "unique for lunch", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-8,"{"header": ["House", "unique name", "nationalities", "unique level of education", "unique for lunch", "Each person lives in a unique style of house", "names"], "rows": [["1", "Peter", "brit", "high school", "pizza", "colonial", "eric"], ["2", "Arnold", "swede", "bachelor", "spaghetti", "ranch", "arnold"], ["3", "Eric", "dane", "associate", "grilled cheese", "victorian", "swedish"]]}",101
+lgp-test-2x6-19,"{"header": ["House", "unique name", "unique for lunch", "People have unique hair colors", "Each mother is accompanied by their child", "unique level of education", "animals", "names"], "rows": [["1", "Arnold", "pizza", "brown", "Bella", "high school", "horse", "eric"], ["2", "Eric", "grilled cheese", "black", "Fred", "associate", "cat", "fred"]]}",23
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-15,"{"header": ["House", "unique name", "sports", "Each person prefers a unique type of vacation", "unique for lunch", "names"], "rows": [["1", "Peter", "swimming", "cruise", "grilled cheese", "peter"], ["2", "Eric", "tennis", "mountain", "spaghetti", "eric"], ["3", "Alice", "basketball", "beach", "stew", "alice"], ["4", "Arnold", "soccer", "city", "pizza", "arnold"]]}",1078
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-2,"{"header": ["House", "unique name", "People have unique heights", "People own unique car models", "names"], "rows": [["1", "Arnold", "short", "honda civic", "toyota"], ["2", "Alice", "average", "tesla model 3", "peter"], ["3", "Peter", "tall", "toyota camry", "ford"], ["4", "Eric", "very short", "ford f150", "tesla"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-17,"{"header": ["House", "unique name", "unique phone models", "People have unique heights", "Each person lives in a unique style of house", "People own unique car models", "names"], "rows": [["1", "Eric", "iphone 13", "very short", "ranch", "tesla model 3", "peter"], ["2", "Arnold", "samsung galaxy s21", "average", "colonial", "toyota camry", "tesla"], ["3", "Peter", "google pixel 6", "short", "victorian", "ford f150", "galaxy"]]}",28730
+lgp-test-2x2-12,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Arnold", "brit", "british"], ["2", "Eric", "dane", "dane"]]}",9
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-6,"{"header": ["House", "unique name", "People have unique hair colors", "People own unique car models", "names"], "rows": [["1", "Eric", "black", "tesla model 3", "eric"], ["2", "Alice", "red", "ford f150", "honda"], ["3", "Peter", "blonde", "honda civic", "civic"], ["4", "Arnold", "brown", "toyota camry", "model"]]}",2099
+lgp-test-4x2-7,"{"header": ["House", "unique name", "People have unique heights", "names"], "rows": [["1", "Arnold", "average", "eric"], ["2", "Eric", "tall", "alice"], ["3", "Alice", "short", "there"], ["4", "Peter", "very short", "peter"]]}",1137
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-32,"{"header": ["House", "unique name", "unique favorite drink", "unique phone models", "unique birthday month", "names"], "rows": [["1", "Eric", "water", "iphone 13", "april", "peter"], ["2", "Arnold", "tea", "samsung galaxy s21", "jan", "april"], ["3", "Peter", "milk", "google pixel 6", "sept", "samsung"]]}",19
+lgp-test-3x5-38,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "Everyone has a unique favorite cigar", "unique for lunch", "animals", "names"], "rows": [["1", "Arnold", "beach", "prince", "grilled cheese", "cat", "blue"], ["2", "Peter", "mountain", "pall mall", "spaghetti", "horse", "arnold"], ["3", "Eric", "city", "blue master", "pizza", "bird", "master"]]}",841
+lgp-test-4x3-31,"{"header": ["House", "unique name", "unique favorite drink", "unique phone models", "names"], "rows": [["1", "Alice", "milk", "iphone 13", "eric"], ["2", "Arnold", "water", "oneplus 9", "alice"], ["3", "Peter", "coffee", "samsung galaxy s21", "google"], ["4", "Eric", "tea", "google pixel 6", "arnold"]]}",197
+lgp-test-3x2-4,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Peter", "tesla model 3", "arnold"], ["2", "Eric", "ford f150", "peter"], ["3", "Arnold", "toyota camry", "ford"]]}",13
+lgp-test-3x2-27,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Peter", "victorian", "victorian"], ["2", "Arnold", "colonial", "arnold"], ["3", "Eric", "ranch", "eric"]]}",31
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-12,"{"header": ["House", "unique name", "unique birthday month", "names"], "rows": [["1", "Arnold", "may", "arnold"], ["2", "Eric", "april", "there"], ["3", "Bob", "sept", "alice"], ["4", "Alice", "mar", "september"], ["5", "Carol", "feb", "march"], ["6", "Peter", "jan", "january"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-21,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Eric", "craftsman", "alice"], ["2", "Arnold", "victorian", "arnold"], ["3", "Alice", "ranch", "victorian"], ["4", "Peter", "colonial", "peter"]]}",121
+lgp-test-3x5-20,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "Everyone has a favorite smoothie", "Each person prefers a unique type of vacation", "favorite color", "names"], "rows": [["1", "Eric", "Meredith", "watermelon", "mountain", "red", "there"], ["2", "Arnold", "Fred", "cherry", "beach", "yellow", "cherry"], ["3", "Peter", "Bella", "desert", "city", "white", "meredith"]]}",2910
+lgp-test-2x6-23,"{"header": ["House", "unique name", "unique phone models", "Each person prefers a unique type of vacation", "unique for lunch", "nationalities", "People own unique car models", "names"], "rows": [["1", "Eric", "samsung galaxy s21", "mountain", "pizza", "dane", "tesla model 3", "galaxy"], ["2", "Arnold", "iphone 13", "beach", "grilled cheese", "brit", "ford f150", "tesla"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-21,"{"header": ["House", "unique name", "occupation", "unique type of pet", "People have unique hair colors", "unique for lunch", "nationalities", "names"], "rows": [["1", "Arnold", "engineer", "cat", "brown", "pizza", "dane", "dane"], ["2", "Eric", "doctor", "dog", "black", "grilled cheese", "brit", "eric"]]}",258
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x3-21,"{"header": ["House", "unique name", "People own unique car models", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "chevrolet silverado", "Samantha", "arnold"], ["2", "Alice", "honda civic", "Timothy", "meredith"], ["3", "Eric", "ford f150", "Fred", "peter"], ["4", "Peter", "bmw 3 series", "Bella", "fred"], ["5", "Bob", "toyota camry", "Meredith", "carol"], ["6", "Carol", "tesla model 3", "Alice", "there"]]}",31
+lgp-test-5x3-9,"{"header": ["House", "unique name", "unique type of pet", "unique birthday month", "names"], "rows": [["1", "Arnold", "hamster", "jan", "april"], ["2", "Eric", "bird", "feb", "there"], ["3", "Alice", "cat", "mar", "bob"], ["4", "Peter", "dog", "april", "eric"], ["5", "Bob", "fish", "sept", "peter"]]}",4330
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-25,"{"header": ["House", "unique name", "occupation", "sports", "nationalities", "names"], "rows": [["1", "Eric", "doctor", "basketball", "brit", "arnold"], ["2", "Arnold", "engineer", "soccer", "dane", "dane"]]}",46
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-11,"{"header": ["House", "unique name", "animals", "unique birthday month", "names"], "rows": [["1", "Bob", "horse", "sept", "february"], ["2", "Eric", "dog", "april", "april"], ["3", "Peter", "cat", "jan", "january"], ["4", "Arnold", "fish", "mar", "arnold"], ["5", "Alice", "bird", "feb", "alice"]]}",94
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-19,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Eric", "huawei p50", "there"], ["2", "Peter", "oneplus 9", "eric"], ["3", "Arnold", "google pixel 6", "peter"], ["4", "Alice", "samsung galaxy s21", "arnold"], ["5", "Bob", "iphone 13", "samsung"]]}",21
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-35,"{"header": ["House", "unique name", "unique hobby", "Everyone has a unique favorite cigar", "unique favorite drink", "names"], "rows": [["1", "Eric", "gardening", "pall mall", "water", "eric"], ["2", "Arnold", "photography", "prince", "milk", "prince"], ["3", "Peter", "cooking", "blue master", "tea", "peter"]]}",38
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-0,"{"header": ["House", "unique name", "occupation", "unique for lunch", "names"], "rows": [["1", "Alice", "teacher", "grilled cheese", "arnold"], ["2", "Peter", "engineer", "stew", "eric"], ["3", "Eric", "artist", "spaghetti", "peter"], ["4", "Arnold", "doctor", "pizza", "alice"]]}",109
+lgp-test-2x5-31,"{"header": ["House", "unique name", "book genres", "nationalities", "Everyone has a favorite smoothie", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "mystery", "dane", "desert", "Aniya", "desert"], ["2", "Arnold", "science fiction", "brit", "cherry", "Holly", "dane"]]}",15
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-32,"{"header": ["House", "unique name", "People have unique hair colors", "Each person lives in a unique style of house", "unique for lunch", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "black", "victorian", "pizza", "Fred", "bella"], ["2", "Arnold", "brown", "colonial", "grilled cheese", "Bella", "arnold"]]}",15
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-1,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Eric", "cruise", "bob"], ["2", "Alice", "city", "peter"], ["3", "Bob", "mountain", "arnold"], ["4", "Peter", "camping", "eric"], ["5", "Arnold", "beach", "alice"]]}",230
+lgp-test-4x2-37,"{"header": ["House", "unique name", "unique birthday month", "names"], "rows": [["1", "Peter", "feb", "eric"], ["2", "Alice", "april", "alice"], ["3", "Eric", "jan", "arnold"], ["4", "Arnold", "sept", "april"]]}",17
+lgp-test-4x3-12,"{"header": ["House", "unique name", "People own unique car models", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Eric", "tesla model 3", "cherry", "cherry"], ["2", "Arnold", "honda civic", "dragonfruit", "toyota"], ["3", "Peter", "toyota camry", "desert", "alice"], ["4", "Alice", "ford f150", "watermelon", "eric"]]}",21
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-28,"{"header": ["House", "unique name", "People own unique car models", "nationalities", "names"], "rows": [["1", "Eric", "toyota camry", "brit", "swedish"], ["2", "Peter", "ford f150", "swede", "model"], ["3", "Arnold", "tesla model 3", "dane", "toyota"]]}",16
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-21,"{"header": ["House", "unique name", "occupation", "People own unique car models", "The mothers' names in different houses are unique", "nationalities", "names"], "rows": [["1", "Eric", "engineer", "ford f150", "Aniya", "dane", "dane"], ["2", "Arnold", "teacher", "tesla model 3", "Janelle", "brit", "tesla"], ["3", "Peter", "doctor", "toyota camry", "Holly", "swede", "peter"]]}",8615
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-5,"{"header": ["House", "unique name", "unique favorite drink", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "water", "prince", "eric"], ["2", "Arnold", "tea", "pall mall", "mall"]]}",11
+lgp-test-3x4-3,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "Everyone has a unique favorite cigar", "unique type of pet", "names"], "rows": [["1", "Eric", "ranch", "pall mall", "dog", "arnold"], ["2", "Peter", "victorian", "blue master", "cat", "peter"], ["3", "Arnold", "colonial", "prince", "fish", "prince"]]}",79
+lgp-test-5x3-12,"{"header": ["House", "unique name", "unique phone models", "occupation", "names"], "rows": [["1", "Peter", "oneplus 9", "lawyer", "samsung"], ["2", "Bob", "google pixel 6", "engineer", "galaxy"], ["3", "Alice", "samsung galaxy s21", "artist", "eric"], ["4", "Eric", "iphone 13", "teacher", "there"], ["5", "Arnold", "huawei p50", "doctor", "bob"]]}",839
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x6-39,"{"header": ["House", "unique name", "People own unique car models", "They all have a unique favorite flower", "unique favorite drink", "People have unique heights", "favorite color", "names"], "rows": [["1", "Arnold", "honda civic", "roses", "milk", "very short", "red", "toyota"], ["2", "Eric", "tesla model 3", "daffodils", "water", "average", "white", "model"], ["3", "Alice", "toyota camry", "carnations", "tea", "short", "yellow", "there"], ["4", "Peter", "ford f150", "lilies", "coffee", "tall", "green", "ford"]]}",950
+lgp-test-3x2-8,"{"header": ["House", "unique name", "People have unique heights", "names"], "rows": [["1", "Eric", "very short", "there"], ["2", "Arnold", "short", "eric"], ["3", "Peter", "average", "peter"]]}",13
+lgp-test-3x5-31,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "sports", "unique favorite drink", "They all have a unique favorite flower", "names"], "rows": [["1", "Eric", "Janelle", "basketball", "milk", "daffodils", "aniya"], ["2", "Peter", "Aniya", "tennis", "water", "lilies", "peter"], ["3", "Arnold", "Holly", "soccer", "tea", "carnations", "arnold"]]}",186
+lgp-test-3x2-15,"{"header": ["House", "unique name", "People have unique heights", "names"], "rows": [["1", "Arnold", "short", "there"], ["2", "Peter", "average", "eric"], ["3", "Eric", "very short", "peter"]]}",81
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-38,"{"header": ["House", "unique name", "unique hobby", "Each person lives in a unique style of house", "names"], "rows": [["1", "Peter", "photography", "ranch", "there"], ["2", "Eric", "cooking", "victorian", "arnold"], ["3", "Arnold", "gardening", "colonial", "victorian"]]}",303
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-29,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "animals", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "Bella", "cat", "Aniya", "holly"], ["2", "Arnold", "Fred", "horse", "Holly", "arnold"]]}",13
+lgp-test-2x4-38,"{"header": ["House", "unique name", "unique birthday month", "Each mother is accompanied by their child", "unique level of education", "names"], "rows": [["1", "Eric", "sept", "Bella", "associate", "april"], ["2", "Arnold", "april", "Fred", "high school", "bella"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-26,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "unique favorite drink", "sports", "names"], "rows": [["1", "Eric", "cherry", "water", "basketball", "eric"], ["2", "Arnold", "desert", "tea", "soccer", "desert"]]}",13
+lgp-test-3x4-26,"{"header": ["House", "unique name", "unique for lunch", "Everyone has a favorite smoothie", "unique type of pet", "names"], "rows": [["1", "Peter", "grilled cheese", "cherry", "fish", "cherry"], ["2", "Eric", "spaghetti", "desert", "dog", "watermelon"], ["3", "Arnold", "pizza", "watermelon", "cat", "eric"]]}",3231
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-29,"{"header": ["House", "unique name", "unique type of pet", "Everyone has a unique favorite cigar", "book genres", "names"], "rows": [["1", "Eric", "cat", "pall mall", "romance", "pall"], ["2", "Peter", "fish", "prince", "science fiction", "prince"], ["3", "Arnold", "dog", "blue master", "mystery", "arnold"]]}",10359
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x5-23,"{"header": ["House", "unique name", "sports", "Each mother is accompanied by their child", "The mothers' names in different houses are unique", "animals", "names"], "rows": [["1", "Bob", "tennis", "Fred", "Kailyn", "horse", "penny"], ["2", "Eric", "baseball", "Bella", "Holly", "cat", "meredith"], ["3", "Arnold", "soccer", "Meredith", "Penny", "bird", "aniya"], ["4", "Peter", "swimming", "Timothy", "Janelle", "dog", "samantha"], ["5", "Alice", "basketball", "Samantha", "Aniya", "fish", "fred"]]}",19027
+lgp-test-5x2-34,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Alice", "toyota camry", "there"], ["2", "Arnold", "tesla model 3", "model"], ["3", "Eric", "honda civic", "toyota"], ["4", "Peter", "ford f150", "camry"], ["5", "Bob", "bmw 3 series", "civic"]]}",21
+lgp-test-3x4-11,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "animals", "People own unique car models", "names"], "rows": [["1", "Arnold", "colonial", "bird", "ford f150", "peter"], ["2", "Eric", "victorian", "horse", "toyota camry", "camry"], ["3", "Peter", "ranch", "cat", "tesla model 3", "ford"]]}",26
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-29,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Peter", "Timothy", "arnold"], ["2", "Eric", "Bella", "alice"], ["3", "Bob", "Meredith", "samantha"], ["4", "Arnold", "Samantha", "eric"], ["5", "Alice", "Fred", "meredith"]]}",21
+lgp-test-3x5-37,"{"header": ["House", "unique name", "unique phone models", "occupation", "unique hobby", "animals", "names"], "rows": [["1", "Arnold", "samsung galaxy s21", "doctor", "photography", "bird", "samsung"], ["2", "Peter", "iphone 13", "engineer", "gardening", "horse", "galaxy"], ["3", "Eric", "google pixel 6", "teacher", "cooking", "cat", "arnold"]]}",109
+lgp-test-5x4-32,"{"header": ["House", "unique name", "unique phone models", "People have unique hair colors", "People own unique car models", "names"], "rows": [["1", "Eric", "oneplus 9", "gray", "bmw 3 series", "tesla"], ["2", "Bob", "google pixel 6", "blonde", "tesla model 3", "samsung"], ["3", "Arnold", "iphone 13", "black", "ford f150", "galaxy"], ["4", "Peter", "samsung galaxy s21", "brown", "toyota camry", "series"], ["5", "Alice", "huawei p50", "red", "honda civic", "honda"]]}",31
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-22,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "nationalities", "names"], "rows": [["1", "Arnold", "desert", "german", "dragonfruit"], ["2", "Eric", "watermelon", "swede", "peter"], ["3", "Bob", "lime", "norwegian", "dane"], ["4", "Peter", "cherry", "dane", "desert"], ["5", "Alice", "dragonfruit", "brit", "british"]]}",15193
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-35,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "unique for lunch", "names"], "rows": [["1", "", "", "", ""], ["2", "", "", "", ""]]}",0
+lgp-test-2x4-22,"{"header": ["House", "unique name", "People have unique hair colors", "unique type of pet", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "black", "cat", "Fred", "arnold"], ["2", "Arnold", "brown", "dog", "Bella", "fred"]]}",39
+lgp-test-4x6-16,"{"header": ["House", "unique name", "unique birthday month", "unique for lunch", "unique hobby", "occupation", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "sept", "pizza", "cooking", "teacher", "Bella", "january"], ["2", "Peter", "april", "spaghetti", "gardening", "artist", "Samantha", "eric"], ["3", "Arnold", "feb", "stew", "painting", "engineer", "Fred", "bella"], ["4", "Alice", "jan", "grilled cheese", "photography", "doctor", "Meredith", "arnold"]]}",192
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-34,"{"header": ["House", "unique name", "sports", "People own unique car models", "names"], "rows": [["1", "Eric", "soccer", "ford f150", "arnold"], ["2", "Arnold", "basketball", "tesla model 3", "model"]]}",32
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-28,"{"header": ["House", "unique name", "favorite color", "animals", "names"], "rows": [["1", "Eric", "red", "fish", "alice"], ["2", "Alice", "green", "cat", "peter"], ["3", "Arnold", "white", "horse", "arnold"], ["4", "Peter", "yellow", "bird", "eric"]]}",84
+lgp-test-3x4-27,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "unique hobby", "nationalities", "names"], "rows": [["1", "Peter", "desert", "photography", "dane", "british"], ["2", "Eric", "watermelon", "cooking", "swede", "dane"], ["3", "Arnold", "cherry", "gardening", "brit", "desert"]]}",19
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-4,"{"header": ["House", "unique name", "unique hobby", "unique favorite drink", "names"], "rows": [["1", "Arnold", "gardening", "water", "arnold"], ["2", "Eric", "cooking", "milk", "peter"], ["3", "Peter", "photography", "tea", "eric"]]}",79
+lgp-test-5x3-1,"{"header": ["House", "unique name", "music genres", "unique for lunch", "names"], "rows": [["1", "Eric", "jazz", "grilled cheese", "bob"], ["2", "Peter", "rock", "pizza", "arnold"], ["3", "Arnold", "hip hop", "stir fry", "peter"], ["4", "Bob", "pop", "spaghetti", "eric"], ["5", "Alice", "classical", "stew", "alice"]]}",3486
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-0,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "victorian", "Bella", "victorian"], ["2", "Eric", "colonial", "Fred", "fred"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-2,"{"header": ["House", "unique name", "unique hobby", "People own unique car models", "music genres", "unique type of pet", "names"], "rows": [["1", "Eric", "gardening", "ford f150", "pop", "dog", "model"], ["2", "Arnold", "photography", "tesla model 3", "rock", "cat", "tesla"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-9,"{"header": ["House", "unique name", "unique birthday month", "names"], "rows": [["1", "Eric", "feb", "march"], ["2", "Arnold", "sept", "january"], ["3", "Bob", "april", "september"], ["4", "Peter", "mar", "eric"], ["5", "Alice", "jan", "peter"]]}",21
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-30,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique type of pet", "People have unique heights", "unique birthday month", "sports", "names"], "rows": [["1", "Arnold", "prince", "cat", "short", "sept", "soccer", "prince"], ["2", "Eric", "pall mall", "dog", "very short", "april", "basketball", "arnold"]]}",104
+lgp-test-2x4-2,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "Everyone has a unique favorite cigar", "occupation", "names"], "rows": [["1", "Eric", "victorian", "prince", "doctor", "arnold"], ["2", "Arnold", "colonial", "pall mall", "engineer", "pall"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-34,"{"header": ["House", "unique name", "People own unique car models", "Everyone has a unique favorite cigar", "sports", "names"], "rows": [["1", "Arnold", "ford f150", "prince", "soccer", "tesla"], ["2", "Peter", "toyota camry", "dunhill", "swimming", "model"], ["3", "Eric", "honda civic", "blue master", "tennis", "pall"], ["4", "Alice", "tesla model 3", "pall mall", "basketball", "mall"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-18,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "unique phone models", "names"], "rows": [["1", "Arnold", "desert", "samsung galaxy s21", "cherry"], ["2", "Eric", "cherry", "iphone 13", "arnold"]]}",11
+lgp-test-3x5-1,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "sports", "Everyone has a favorite smoothie", "People have unique heights", "names"], "rows": [["1", "Peter", "ranch", "basketball", "cherry", "short", "watermelon"], ["2", "Eric", "colonial", "tennis", "watermelon", "average", "eric"], ["3", "Arnold", "victorian", "soccer", "desert", "very short", "victorian"]]}",4859
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-37,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Peter", "tesla model 3", "alice"], ["2", "Alice", "honda civic", "carol"], ["3", "Bob", "toyota camry", "chevrolet"], ["4", "Arnold", "chevrolet silverado", "silverado"], ["5", "Eric", "bmw 3 series", "toyota"], ["6", "Carol", "ford f150", "bob"]]}",25
+lgp-test-3x2-22,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Peter", "victorian", "victorian"], ["2", "Eric", "colonial", "arnold"], ["3", "Arnold", "ranch", "eric"]]}",49
+lgp-test-3x4-23,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "Each person lives in a unique style of house", "People have unique heights", "names"], "rows": [["1", "Eric", "beach", "colonial", "short", "victorian"], ["2", "Arnold", "mountain", "ranch", "average", "arnold"], ["3", "Peter", "city", "victorian", "very short", "peter"]]}",700
+lgp-test-5x4-36,"{"header": ["House", "unique name", "favorite color", "Each mother is accompanied by their child", "They all have a unique favorite flower", "names"], "rows": [["1", "Alice", "red", "Bella", "tulips", "alice"], ["2", "Arnold", "green", "Timothy", "daffodils", "eric"], ["3", "Eric", "white", "Samantha", "carnations", "bella"], ["4", "Peter", "blue", "Meredith", "lilies", "there"], ["5", "Bob", "yellow", "Fred", "roses", "meredith"]]}",31
+lgp-test-2x5-38,"{"header": ["House", "unique name", "They all have a unique favorite flower", "The mothers' names in different houses are unique", "unique birthday month", "book genres", "names"], "rows": [["1", "Eric", "daffodils", "Holly", "april", "mystery", "eric"], ["2", "Arnold", "carnations", "Aniya", "sept", "science fiction", "arnold"]]}",15
+lgp-test-4x4-18,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique for lunch", "book genres", "names"], "rows": [["1", "Eric", "blue master", "stew", "fantasy", "arnold"], ["2", "Arnold", "pall mall", "pizza", "mystery", "blue"], ["3", "Alice", "dunhill", "spaghetti", "science fiction", "alice"], ["4", "Peter", "prince", "grilled cheese", "romance", "pall"]]}",11954
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-25,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "favorite color", "names"], "rows": [["1", "Peter", "watermelon", "yellow", "dragonfruit"], ["2", "Eric", "desert", "green", "cherry"], ["3", "Alice", "cherry", "white", "peter"], ["4", "Arnold", "dragonfruit", "red", "eric"]]}",16341
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-39,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "unique phone models", "book genres", "Everyone has a unique favorite cigar", "People have unique heights", "names"], "rows": [["1", "Peter", "Bella", "samsung galaxy s21", "romance", "blue master", "very short", "eric"], ["2", "Arnold", "Meredith", "iphone 13", "science fiction", "prince", "short", "prince"], ["3", "Eric", "Fred", "google pixel 6", "mystery", "pall mall", "average", "samsung"]]}",18786
+lgp-test-2x2-2,"{"header": ["House", "unique name", "animals", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""]]}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-8,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "Each person prefers a unique type of vacation", "Everyone has a favorite smoothie", "People have unique heights", "unique birthday month", "names"], "rows": [["1", "Arnold", "prince", "beach", "desert", "very short", "april", "desert"], ["2", "Eric", "pall mall", "mountain", "cherry", "short", "sept", "arnold"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x3-29,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Bob", "victorian", "yellow monster", "pall"], ["2", "Carol", "ranch", "blue master", "mall"], ["3", "Eric", "modern", "blends", "eric"], ["4", "Peter", "craftsman", "pall mall", "carol"], ["5", "Alice", "colonial", "dunhill", "craftsman"], ["6", "Arnold", "mediterranean", "prince", "prince"]]}",21602
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x5-31,"{"header": ["House", "unique name", "unique phone models", "Everyone has a favorite smoothie", "The mothers' names in different houses are unique", "occupation", "names"], "rows": [["1", "Eric", "samsung galaxy s21", "desert", "Janelle", "doctor", "kailyn"], ["2", "Alice", "huawei p50", "dragonfruit", "Holly", "lawyer", "dragonfruit"], ["3", "Arnold", "oneplus 9", "watermelon", "Penny", "engineer", "arnold"], ["4", "Peter", "iphone 13", "cherry", "Aniya", "teacher", "desert"], ["5", "Bob", "google pixel 6", "lime", "Kailyn", "artist", "lime"]]}",36
+lgp-test-2x6-10,"{"header": ["House", "unique name", "unique birthday month", "animals", "book genres", "favorite color", "occupation", "names"], "rows": [["1", "Eric", "sept", "horse", "mystery", "red", "engineer", "eric"], ["2", "Arnold", "april", "cat", "science fiction", "yellow", "doctor", "april"]]}",101
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-15,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Arnold", "ford f150", "ford"], ["2", "Eric", "tesla model 3", "arnold"]]}",9
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-37,"{"header": ["House", "unique name", "People have unique heights", "unique birthday month", "names"], "rows": [["1", "Eric", "very short", "sept", "april"], ["2", "Arnold", "short", "april", "eric"]]}",36
+lgp-test-3x3-15,"{"header": ["House", "unique name", "unique for lunch", "unique birthday month", "names"], "rows": [["1", "Peter", "grilled cheese", "april", "april"], ["2", "Arnold", "spaghetti", "jan", "january"], ["3", "Eric", "pizza", "sept", "peter"]]}",16
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-27,"{"header": ["House", "unique name", "unique for lunch", "The mothers' names in different houses are unique", "unique birthday month", "People have unique hair colors", "occupation", "names"], "rows": [["1", "Arnold", "pizza", "Holly", "april", "black", "engineer", "eric"], ["2", "Eric", "grilled cheese", "Aniya", "sept", "brown", "doctor", "arnold"]]}",75
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-14,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Carol", "blends", "blue"], ["2", "Peter", "yellow monster", "prince"], ["3", "Eric", "pall mall", "there"], ["4", "Arnold", "blue master", "monster"], ["5", "Alice", "dunhill", "pall"], ["6", "Bob", "prince", "eric"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-14,"{"header": ["House", "unique name", "music genres", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "classical", "Meredith", "peter"], ["2", "Peter", "pop", "Bella", "fred"], ["3", "Eric", "rock", "Fred", "meredith"]]}",74
+lgp-test-2x4-31,"{"header": ["House", "unique name", "unique favorite drink", "unique type of pet", "nationalities", "names"], "rows": [["1", "Arnold", "water", "cat", "dane", "british"], ["2", "Eric", "tea", "dog", "brit", "eric"]]}",13
+lgp-test-3x5-27,"{"header": ["House", "unique name", "favorite color", "sports", "Each person prefers a unique type of vacation", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "white", "tennis", "beach", "blue master", "prince"], ["2", "Arnold", "red", "soccer", "mountain", "pall mall", "blue"], ["3", "Eric", "yellow", "basketball", "city", "prince", "eric"]]}",271
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-22,"{"header": ["House", "unique name", "sports", "People own unique car models", "names"], "rows": [["1", "Eric", "basketball", "tesla model 3", "ford"], ["2", "Arnold", "soccer", "ford f150", "tesla"]]}",11
+lgp-test-2x4-20,"{"header": ["House", "unique name", "unique phone models", "unique favorite drink", "sports", "names"], "rows": [["1", "Eric", "iphone 13", "water", "basketball", "arnold"], ["2", "Arnold", "samsung galaxy s21", "tea", "soccer", "samsung"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-15,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "People own unique car models", "names"], "rows": [["1", "Eric", "pall mall", "tesla model 3", "pall"], ["2", "Arnold", "prince", "ford f150", "arnold"]]}",11
+lgp-test-4x3-38,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "They all have a unique favorite flower", "names"], "rows": [["1", "Alice", "Holly", "carnations", "kailyn"], ["2", "Peter", "Kailyn", "roses", "arnold"], ["3", "Arnold", "Janelle", "lilies", "janelle"], ["4", "Eric", "Aniya", "daffodils", "eric"]]}",2517
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x3-1,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "People have unique hair colors", "names"], "rows": [["1", "Alice", "Samantha", "red", "meredith"], ["2", "Arnold", "Meredith", "brown", "eric"], ["3", "Eric", "Fred", "black", "peter"], ["4", "Peter", "Bella", "blonde", "fred"]]}",214
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-16,"{"header": ["House", "unique name", "occupation", "People have unique hair colors", "People own unique car models", "names"], "rows": [["1", "Eric", "doctor", "brown", "tesla model 3", "tesla"], ["2", "Arnold", "engineer", "black", "ford f150", "arnold"]]}",13
+lgp-test-2x6-34,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "music genres", "Each person prefers a unique type of vacation", "sports", "People have unique hair colors", "names"], "rows": [["1", "Eric", "victorian", "pop", "beach", "soccer", "black", "arnold"], ["2", "Arnold", "colonial", "rock", "mountain", "basketball", "brown", "victorian"]]}",123
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-4,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "unique birthday month", "unique hobby", "names"], "rows": [["1", "Peter", "Kailyn", "feb", "cooking", "peter"], ["2", "Eric", "Aniya", "sept", "gardening", "arnold"], ["3", "Arnold", "Holly", "jan", "photography", "january"], ["4", "Alice", "Janelle", "april", "painting", "april"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-19,"{"header": ["House", "unique name", "People own unique car models", "names"], "rows": [["1", "Peter", "ford f150", "arnold"], ["2", "Eric", "toyota camry", "model"], ["3", "Arnold", "tesla model 3", "toyota"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-5,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "They all have a unique favorite flower", "unique birthday month", "names"], "rows": [["1", "Arnold", "beach", "carnations", "jan", "peter"], ["2", "Eric", "mountain", "daffodils", "april", "arnold"], ["3", "Peter", "city", "lilies", "sept", "eric"]]}",497
+lgp-test-3x3-3,"{"header": ["House", "unique name", "People own unique car models", "nationalities", "names"], "rows": [["1", "Peter", "ford f150", "swede", "ford"], ["2", "Eric", "toyota camry", "dane", "peter"], ["3", "Arnold", "tesla model 3", "brit", "toyota"]]}",16
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-18,"{"header": ["House", "unique name", "They all have a unique favorite flower", "nationalities", "The mothers' names in different houses are unique", "sports", "names"], "rows": [["1", "Arnold", "daffodils", "brit", "Aniya", "basketball", "swedish"], ["2", "Peter", "lilies", "dane", "Holly", "tennis", "arnold"], ["3", "Eric", "carnations", "swede", "Janelle", "soccer", "holly"]]}",22
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-29,"{"header": ["House", "unique name", "unique birthday month", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "sept", "Aniya", "holly"], ["2", "Eric", "april", "Holly", "arnold"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-6,"{"header": ["House", "unique name", "unique phone models", "book genres", "names"], "rows": [["1", "Arnold", "google pixel 6", "science fiction", "peter"], ["2", "Peter", "samsung galaxy s21", "romance", "bob"], ["3", "Eric", "huawei p50", "biography", "there"], ["4", "Bob", "oneplus 9", "mystery", "samsung"], ["5", "Alice", "iphone 13", "fantasy", "galaxy"]]}",3526
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-32,"{"header": ["House", "unique name", "unique birthday month", "favorite color", "names"], "rows": [["1", "Eric", "sept", "yellow", "eric"], ["2", "Arnold", "april", "red", "april"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x5-14,"{"header": ["House", "unique name", "unique birthday month", "They all have a unique favorite flower", "unique level of education", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "mar", "tulips", "high school", "desert", "there"], ["2", "Alice", "feb", "lilies", "bachelor", "cherry", "april"], ["3", "Eric", "jan", "carnations", "doctorate", "watermelon", "eric"], ["4", "Bob", "sept", "daffodils", "associate", "dragonfruit", "lime"], ["5", "Peter", "april", "roses", "master", "lime", "alice"]]}",36
+lgp-test-3x2-35,"{"header": ["House", "unique name", "People have unique hair colors", "names"], "rows": [["1", "Arnold", "brown", "arnold"], ["2", "Eric", "black", "eric"], ["3", "Peter", "blonde", "peter"]]}",65
+lgp-test-4x6-7,"{"header": ["House", "unique name", "People have unique hair colors", "sports", "Everyone has a favorite smoothie", "unique birthday month", "unique phone models", "names"], "rows": [["1", "Eric", "brown", "tennis", "watermelon", "april", "oneplus 9", "january"], ["2", "Peter", "black", "basketball", "cherry", "sept", "samsung galaxy s21", "february"], ["3", "Alice", "red", "soccer", "dragonfruit", "feb", "iphone 13", "eric"], ["4", "Arnold", "blonde", "swimming", "desert", "jan", "google pixel 6", "april"]]}",448
+lgp-test-5x2-2,"{"header": ["House", "unique name", "occupation", "names"], "rows": [["1", "Eric", "lawyer", "there"], ["2", "Arnold", "doctor", "eric"], ["3", "Alice", "artist", "peter"], ["4", "Bob", "teacher", "alice"], ["5", "Peter", "engineer", "bob"]]}",5327
+lgp-test-2x2-21,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Eric", "dane", "dane"], ["2", "Arnold", "brit", "british"]]}",9
+lgp-test-3x5-26,"{"header": ["House", "unique name", "People own unique car models", "unique type of pet", "book genres", "unique for lunch", "names"], "rows": [["1", "Eric", "tesla model 3", "cat", "science fiction", "spaghetti", "ford"], ["2", "Peter", "toyota camry", "fish", "mystery", "pizza", "tesla"], ["3", "Arnold", "ford f150", "dog", "romance", "grilled cheese", "model"]]}",22
+lgp-test-6x2-27,"{"header": ["House", "unique name", "sports", "names"], "rows": [["1", "Arnold", "baseball", "carol"], ["2", "Alice", "soccer", "alice"], ["3", "Bob", "basketball", "peter"], ["4", "Peter", "swimming", "eric"], ["5", "Eric", "volleyball", "bob"], ["6", "Carol", "tennis", "arnold"]]}",1255
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-13,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Peter", "Meredith", "cherry", "fred"], ["2", "Arnold", "Bella", "watermelon", "bella"], ["3", "Eric", "Fred", "desert", "cherry"]]}",16
+lgp-test-2x5-3,"{"header": ["House", "unique name", "unique hobby", "book genres", "music genres", "unique birthday month", "names"], "rows": [["1", "Eric", "gardening", "mystery", "rock", "sept", "april"], ["2", "Arnold", "photography", "science fiction", "pop", "april", "arnold"]]}",75
+lgp-test-4x3-22,"{"header": ["House", "unique name", "favorite color", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "red", "Janelle", "arnold"], ["2", "Peter", "yellow", "Holly", "aniya"], ["3", "Alice", "green", "Kailyn", "alice"], ["4", "Eric", "white", "Aniya", "peter"]]}",6669
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-39,"{"header": ["House", "unique name", "occupation", "music genres", "Each mother is accompanied by their child", "names"], "rows": [["1", "Arnold", "teacher", "classical", "Fred", "arnold"], ["2", "Peter", "doctor", "rock", "Bella", "meredith"], ["3", "Eric", "engineer", "pop", "Meredith", "bella"]]}",564
+lgp-test-5x5-10,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Everyone has a unique favorite cigar", "animals", "unique for lunch", "names"], "rows": [["1", "Bob", "Penny", "blue master", "bird", "grilled cheese", "dunhill"], ["2", "Peter", "Kailyn", "pall mall", "cat", "stir fry", "peter"], ["3", "Alice", "Aniya", "prince", "dog", "stew", "aniya"], ["4", "Eric", "Janelle", "dunhill", "fish", "spaghetti", "there"], ["5", "Arnold", "Holly", "blends", "horse", "pizza", "eric"]]}",4519
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x3-26,"{"header": ["House", "unique name", "People have unique heights", "unique phone models", "names"], "rows": [["1", "Alice", "very tall", "oneplus 9", "bob"], ["2", "Eric", "tall", "google pixel 6", "peter"], ["3", "Bob", "super tall", "samsung galaxy s21", "google"], ["4", "Peter", "short", "iphone 13", "samsung"], ["5", "Arnold", "average", "huawei p50", "galaxy"], ["6", "Carol", "very short", "xiaomi mi 11", "xiaomi"]]}",1635
+lgp-test-4x2-33,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Eric", "cherry", "desert"], ["2", "Peter", "desert", "arnold"], ["3", "Arnold", "dragonfruit", "watermelon"], ["4", "Alice", "watermelon", "cherry"]]}",614
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-9,"{"header": ["House", "unique name", "music genres", "Each person lives in a unique style of house", "unique for lunch", "sports", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "rock", "victorian", "grilled cheese", "basketball", "Bella", "bella"], ["2", "Arnold", "pop", "colonial", "pizza", "soccer", "Fred", "arnold"]]}",114
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-6,"{"header": ["House", "unique name", "unique phone models", "Each person prefers a unique type of vacation", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "iphone 13", "mountain", "daffodils", "arnold"], ["2", "Peter", "oneplus 9", "city", "carnations", "eric"], ["3", "Alice", "google pixel 6", "cruise", "lilies", "samsung"], ["4", "Eric", "samsung galaxy s21", "beach", "roses", "peter"]]}",27792
+lgp-test-5x3-35,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "People have unique heights", "names"], "rows": [["1", "Eric", "Kailyn", "average", "alice"], ["2", "Peter", "Janelle", "very short", "penny"], ["3", "Arnold", "Aniya", "short", "janelle"], ["4", "Alice", "Penny", "very tall", "peter"], ["5", "Bob", "Holly", "tall", "eric"]]}",26
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-8,"{"header": ["House", "unique name", "unique level of education", "occupation", "unique birthday month", "favorite color", "names"], "rows": [["1", "Arnold", "associate", "doctor", "sept", "red", "eric"], ["2", "Eric", "high school", "engineer", "april", "yellow", "september"]]}",73
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-7,"{"header": ["House", "unique name", "music genres", "People have unique hair colors", "nationalities", "names"], "rows": [["1", "Eric", "rock", "black", "brit", "arnold"], ["2", "Arnold", "pop", "brown", "dane", "british"]]}",34
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x3-25,"{"header": ["House", "unique name", "People own unique car models", "unique hobby", "names"], "rows": [["1", "Peter", "bmw 3 series", "woodworking", "tesla"], ["2", "Arnold", "ford f150", "painting", "honda"], ["3", "Bob", "tesla model 3", "knitting", "alice"], ["4", "Eric", "toyota camry", "photography", "there"], ["5", "Carol", "honda civic", "gardening", "silverado"], ["6", "Alice", "chevrolet silverado", "cooking", "carol"]]}",31
+lgp-test-3x3-6,"{"header": ["House", "unique name", "book genres", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Eric", "mystery", "mountain", "eric"], ["2", "Arnold", "science fiction", "beach", "arnold"], ["3", "Peter", "romance", "city", "peter"]]}",16
+lgp-test-2x3-19,"{"header": ["House", "unique name", "unique for lunch", "book genres", "names"], "rows": [["1", "Arnold", "pizza", "science fiction", "eric"], ["2", "Eric", "grilled cheese", "mystery", "arnold"]]}",22
+lgp-test-3x3-5,"{"header": ["House", "unique name", "nationalities", "sports", "names"], "rows": [["1", "Eric", "dane", "tennis", "eric"], ["2", "Peter", "brit", "basketball", "british"], ["3", "Arnold", "swede", "soccer", "dane"]]}",202
+lgp-test-3x4-34,"{"header": ["House", "unique name", "favorite color", "People own unique car models", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Peter", "red", "tesla model 3", "Janelle", "peter"], ["2", "Eric", "yellow", "toyota camry", "Aniya", "toyota"], ["3", "Arnold", "white", "ford f150", "Holly", "tesla"]]}",19
+lgp-test-3x6-11,"{"header": ["House", "unique name", "They all have a unique favorite flower", "People have unique hair colors", "music genres", "The mothers' names in different houses are unique", "favorite color", "names"], "rows": [["1", "Arnold", "lilies", "blonde", "classical", "Janelle", "yellow", "janelle"], ["2", "Eric", "daffodils", "brown", "rock", "Holly", "red", "peter"], ["3", "Peter", "carnations", "black", "pop", "Aniya", "white", "holly"]]}",20946
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-19,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "Bella", "eric"], ["2", "Arnold", "Fred", "bella"]]}",9
+lgp-test-4x4-20,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "unique for lunch", "favorite color", "names"], "rows": [["1", "Arnold", "Bella", "pizza", "red", "bella"], ["2", "Alice", "Meredith", "spaghetti", "white", "samantha"], ["3", "Peter", "Fred", "grilled cheese", "yellow", "there"], ["4", "Eric", "Samantha", "stew", "green", "alice"]]}",18619
+lgp-test-3x5-11,"{"header": ["House", "unique name", "unique hobby", "nationalities", "unique for lunch", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "cooking", "brit", "pizza", "watermelon", "peter"], ["2", "Eric", "gardening", "dane", "spaghetti", "desert", "watermelon"], ["3", "Peter", "photography", "swede", "grilled cheese", "cherry", "swedish"]]}",16119
+lgp-test-5x2-13,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Bob", "Timothy", "timothy"], ["2", "Peter", "Meredith", "meredith"], ["3", "Eric", "Fred", "samantha"], ["4", "Alice", "Bella", "bob"], ["5", "Arnold", "Samantha", "arnold"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-32,"{"header": ["House", "unique name", "unique hobby", "unique birthday month", "unique level of education", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "cooking", "april", "master", "cherry", "desert"], ["2", "Alice", "painting", "jan", "bachelor", "watermelon", "eric"], ["3", "Eric", "photography", "sept", "associate", "desert", "april"], ["4", "Peter", "gardening", "feb", "high school", "dragonfruit", "watermelon"]]}",44
+lgp-test-2x6-5,"{"header": ["House", "unique name", "occupation", "unique birthday month", "Each person lives in a unique style of house", "People have unique heights", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "engineer", "april", "colonial", "short", "pall mall", "april"], ["2", "Eric", "doctor", "sept", "victorian", "very short", "prince", "mall"]]}",155
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-22,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique favorite drink", "sports", "nationalities", "unique type of pet", "names"], "rows": [["1", "Eric", "prince", "tea", "tennis", "dane", "fish", "mall"], ["2", "Arnold", "pall mall", "water", "soccer", "swede", "dog", "pall"], ["3", "Peter", "blue master", "milk", "basketball", "brit", "cat", "blue"]]}",733
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-25,"{"header": ["House", "unique name", "sports", "favorite color", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "soccer", "white", "Aniya", "holly"], ["2", "Arnold", "tennis", "red", "Janelle", "eric"], ["3", "Peter", "basketball", "yellow", "Holly", "arnold"]]}",1136
+lgp-test-5x3-0,"{"header": ["House", "unique name", "People own unique car models", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Peter", "honda civic", "beach", "honda"], ["2", "Arnold", "tesla model 3", "cruise", "ford"], ["3", "Alice", "bmw 3 series", "city", "arnold"], ["4", "Eric", "ford f150", "mountain", "series"], ["5", "Bob", "toyota camry", "camping", "peter"]]}",5867
+lgp-test-2x4-28,"{"header": ["House", "unique name", "They all have a unique favorite flower", "unique phone models", "favorite color", "names"], "rows": [["1", "Arnold", "daffodils", "iphone 13", "red", "samsung"], ["2", "Eric", "carnations", "samsung galaxy s21", "yellow", "arnold"]]}",13
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-22,"{"header": ["House", "unique name", "nationalities", "book genres", "unique birthday month", "unique type of pet", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "dane", "science fiction", "april", "cat", "Fred", "eric"], ["2", "Arnold", "brit", "mystery", "sept", "dog", "Bella", "british"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-32,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "unique favorite drink", "nationalities", "names"], "rows": [["1", "Alice", "cruise", "tea", "brit", "peter"], ["2", "Arnold", "beach", "coffee", "norwegian", "norwegian"], ["3", "Peter", "mountain", "milk", "dane", "arnold"], ["4", "Eric", "city", "water", "swede", "swedish"]]}",26751
+lgp-test-6x5-10,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "music genres", "book genres", "favorite color", "names"], "rows": [["1", "Alice", "cherry", "rock", "science fiction", "yellow", "dragonfruit"], ["2", "Arnold", "blueberry", "classical", "romance", "white", "desert"], ["3", "Eric", "desert", "jazz", "historical fiction", "red", "cherry"], ["4", "Peter", "lime", "pop", "biography", "green", "peter"], ["5", "Bob", "dragonfruit", "country", "fantasy", "blue", "blueberry"], ["6", "Carol", "watermelon", "hip hop", "mystery", "purple", "watermelon"]]}",35329
+lgp-test-5x5-16,"{"header": ["House", "unique name", "People own unique car models", "unique favorite drink", "nationalities", "unique phone models", "names"], "rows": [["1", "Bob", "toyota camry", "tea", "dane", "oneplus 9", "google"], ["2", "Arnold", "bmw 3 series", "milk", "brit", "iphone 13", "dane"], ["3", "Alice", "ford f150", "water", "german", "google pixel 6", "model"], ["4", "Peter", "honda civic", "root beer", "norwegian", "samsung galaxy s21", "british"], ["5", "Eric", "tesla model 3", "coffee", "swede", "huawei p50", "honda"]]}",36
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-3,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Arnold", "colonial", "arnold"], ["2", "Eric", "victorian", "victorian"]]}",12
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x4-18,"{"header": ["House", "unique name", "People own unique car models", "favorite color", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "toyota camry", "blue", "Janelle", "honda"], ["2", "Peter", "tesla model 3", "red", "Penny", "tesla"], ["3", "Bob", "bmw 3 series", "green", "Holly", "model"], ["4", "Alice", "honda civic", "white", "Kailyn", "series"], ["5", "Eric", "ford f150", "yellow", "Aniya", "alice"]]}",31
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-17,"{"header": ["House", "unique name", "unique phone models", "music genres", "names"], "rows": [["1", "Arnold", "samsung galaxy s21", "classical", "samsung"], ["2", "Peter", "iphone 13", "pop", "arnold"], ["3", "Eric", "google pixel 6", "rock", "peter"]]}",16
+lgp-test-4x5-21,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "sports", "People own unique car models", "They all have a unique favorite flower", "names"], "rows": [["1", "Eric", "dragonfruit", "soccer", "tesla model 3", "daffodils", "tesla"], ["2", "Alice", "cherry", "tennis", "toyota camry", "roses", "dragonfruit"], ["3", "Peter", "desert", "basketball", "honda civic", "lilies", "desert"], ["4", "Arnold", "watermelon", "swimming", "ford f150", "carnations", "camry"]]}",29
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-30,"{"header": ["House", "unique name", "book genres", "unique phone models", "People have unique heights", "They all have a unique favorite flower", "unique for lunch", "names"], "rows": [["1", "Arnold", "mystery", "google pixel 6", "very short", "lilies", "pizza", "samsung"], ["2", "Eric", "romance", "iphone 13", "short", "daffodils", "grilled cheese", "peter"], ["3", "Peter", "science fiction", "samsung galaxy s21", "average", "carnations", "spaghetti", "arnold"]]}",19830
+lgp-test-3x6-34,"{"header": ["House", "unique name", "unique type of pet", "book genres", "People own unique car models", "unique birthday month", "music genres", "names"], "rows": [["1", "Eric", "dog", "mystery", "ford f150", "april", "rock", "september"], ["2", "Arnold", "fish", "romance", "tesla model 3", "jan", "classical", "camry"], ["3", "Peter", "cat", "science fiction", "toyota camry", "sept", "pop", "ford"]]}",645
+lgp-test-2x3-25,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "unique phone models", "names"], "rows": [["1", "Eric", "desert", "iphone 13", "samsung"], ["2", "Arnold", "cherry", "samsung galaxy s21", "cherry"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x5-38,"{"header": ["House", "unique name", "unique birthday month", "unique for lunch", "People have unique heights", "People own unique car models", "names"], "rows": [["1", "Arnold", "feb", "stew", "very short", "chevrolet silverado", "honda"], ["2", "Carol", "mar", "soup", "average", "ford f150", "ford"], ["3", "Eric", "sept", "grilled cheese", "super tall", "bmw 3 series", "eric"], ["4", "Bob", "jan", "stir fry", "short", "tesla model 3", "may"], ["5", "Alice", "april", "spaghetti", "very tall", "toyota camry", "april"], ["6", "Peter", "may", "pizza", "tall", "honda civic", "series"]]}",162
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-36,"{"header": ["House", "unique name", "They all have a unique favorite flower", "music genres", "Each mother is accompanied by their child", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "daffodils", "pop", "Fred", "pall mall", "bella"], ["2", "Eric", "carnations", "rock", "Bella", "prince", "arnold"]]}",24
+lgp-test-2x4-32,"{"header": ["House", "unique name", "book genres", "unique birthday month", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Arnold", "science fiction", "sept", "beach", "april"], ["2", "Eric", "mystery", "april", "mountain", "arnold"]]}",29
+lgp-test-2x3-8,"{"header": ["House", "unique name", "unique birthday month", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "april", "Aniya", "eric"], ["2", "Eric", "sept", "Holly", "holly"]]}",11
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-1,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Each person lives in a unique style of house", "animals", "unique level of education", "names"], "rows": [["1", "Eric", "Kailyn", "craftsman", "cat", "bachelor", "eric"], ["2", "Peter", "Aniya", "victorian", "fish", "master", "aniya"], ["3", "Arnold", "Holly", "ranch", "bird", "high school", "craftsman"], ["4", "Alice", "Janelle", "colonial", "horse", "associate", "alice"]]}",2094
+lgp-test-2x5-21,"{"header": ["House", "unique name", "sports", "Each mother is accompanied by their child", "unique favorite drink", "unique for lunch", "names"], "rows": [["1", "Arnold", "basketball", "Fred", "tea", "pizza", "arnold"], ["2", "Eric", "soccer", "Bella", "water", "grilled cheese", "eric"]]}",15
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-8,"{"header": ["House", "unique name", "favorite color", "names"], "rows": [["1", "Peter", "green", "peter"], ["2", "Arnold", "red", "there"], ["3", "Alice", "white", "arnold"], ["4", "Eric", "yellow", "eric"]]}",1181
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-38,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "names"], "rows": [["1", "Alice", "ranch", "alice"], ["2", "Eric", "craftsman", "eric"], ["3", "Peter", "colonial", "craftsman"], ["4", "Arnold", "victorian", "arnold"]]}",223
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-29,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "unique for lunch", "names"], "rows": [["1", "Eric", "Holly", "pizza", "peter"], ["2", "Peter", "Aniya", "spaghetti", "aniya"], ["3", "Arnold", "Janelle", "grilled cheese", "eric"]]}",25
+lgp-test-4x5-31,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique level of education", "They all have a unique favorite flower", "unique hobby", "names"], "rows": [["1", "Eric", "dunhill", "associate", "lilies", "cooking", "arnold"], ["2", "Arnold", "pall mall", "high school", "carnations", "painting", "eric"], ["3", "Alice", "prince", "master", "daffodils", "photography", "master"], ["4", "Peter", "blue master", "bachelor", "roses", "gardening", "pall"]]}",6247
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x3-31,"{"header": ["House", "unique name", "sports", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "tennis", "Meredith", "eric"], ["2", "Peter", "soccer", "Bella", "arnold"], ["3", "Arnold", "basketball", "Fred", "fred"]]}",31
+lgp-test-2x5-26,"{"header": ["House", "unique name", "unique hobby", "unique type of pet", "The mothers' names in different houses are unique", "favorite color", "names"], "rows": [["1", "Eric", "photography", "cat", "Aniya", "red", "arnold"], ["2", "Arnold", "gardening", "dog", "Holly", "yellow", "aniya"]]}",15
+lgp-test-4x3-29,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "book genres", "names"], "rows": [["1", "Arnold", "dunhill", "romance", "there"], ["2", "Alice", "prince", "mystery", "prince"], ["3", "Peter", "blue master", "science fiction", "mall"], ["4", "Eric", "pall mall", "fantasy", "peter"]]}",31270
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-31,"{"header": ["House", "unique name", "animals", "unique birthday month", "names"], "rows": [["1", "Bob", "cat", "mar", "arnold"], ["2", "Peter", "fish", "jan", "february"], ["3", "Alice", "bird", "feb", "march"], ["4", "Eric", "dog", "april", "september"], ["5", "Arnold", "horse", "sept", "bob"]]}",26
+lgp-test-3x2-17,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Eric", "prince", "pall"], ["2", "Arnold", "pall mall", "arnold"], ["3", "Peter", "blue master", "blue"]]}",13
+lgp-test-3x5-2,"{"header": ["House", "unique name", "People have unique hair colors", "animals", "music genres", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Eric", "brown", "horse", "pop", "watermelon", "watermelon"], ["2", "Peter", "blonde", "cat", "rock", "cherry", "cherry"], ["3", "Arnold", "black", "bird", "classical", "desert", "peter"]]}",10061
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-16,"{"header": ["House", "unique name", "unique level of education", "names"], "rows": [["1", "", "", ""], ["2", "", "", ""], ["3", "", "", ""]]}",0
+lgp-test-2x3-27,"{"header": ["House", "unique name", "People own unique car models", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "tesla model 3", "Fred", "arnold"], ["2", "Arnold", "ford f150", "Bella", "eric"]]}",11
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-10,"{"header": ["House", "unique name", "People have unique hair colors", "names"], "rows": [["1", "Alice", "black", "eric"], ["2", "Arnold", "brown", "arnold"], ["3", "Eric", "blonde", "alice"], ["4", "Peter", "red", "peter"]]}",922
+lgp-test-3x5-3,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "They all have a unique favorite flower", "animals", "unique hobby", "names"], "rows": [["1", "Eric", "cherry", "carnations", "bird", "gardening", "cherry"], ["2", "Peter", "watermelon", "lilies", "cat", "photography", "desert"], ["3", "Arnold", "desert", "daffodils", "horse", "cooking", "watermelon"]]}",3976
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-34,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Peter", "google pixel 6", "peter"], ["2", "Arnold", "iphone 13", "eric"], ["3", "Eric", "samsung galaxy s21", "samsung"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-12,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique hobby", "unique level of education", "unique favorite drink", "names"], "rows": [["1", "Eric", "blue master", "gardening", "high school", "tea", "pall"], ["2", "Peter", "prince", "cooking", "bachelor", "water", "peter"], ["3", "Arnold", "pall mall", "photography", "associate", "milk", "arnold"]]}",4823
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-24,"{"header": ["House", "unique name", "unique birthday month", "names"], "rows": [["1", "Peter", "sept", "january"], ["2", "Arnold", "april", "arnold"], ["3", "Eric", "jan", "peter"]]}",53
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x4-24,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "nationalities", "unique birthday month", "names"], "rows": [["1", "Alice", "Aniya", "swede", "mar", "dane"], ["2", "Peter", "Penny", "brit", "april", "alice"], ["3", "Arnold", "Holly", "dane", "feb", "january"], ["4", "Eric", "Kailyn", "norwegian", "sept", "arnold"], ["5", "Bob", "Janelle", "german", "jan", "janelle"]]}",31
+lgp-test-5x3-15,"{"header": ["House", "unique name", "animals", "People own unique car models", "names"], "rows": [["1", "Alice", "fish", "tesla model 3", "bob"], ["2", "Bob", "dog", "ford f150", "toyota"], ["3", "Arnold", "cat", "honda civic", "arnold"], ["4", "Eric", "horse", "bmw 3 series", "alice"], ["5", "Peter", "bird", "toyota camry", "honda"]]}",26
+lgp-test-3x3-36,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Eric", "Meredith", "mountain", "peter"], ["2", "Peter", "Bella", "city", "arnold"], ["3", "Arnold", "Fred", "beach", "bella"]]}",80
+lgp-test-3x6-28,"{"header": ["House", "unique name", "unique for lunch", "unique birthday month", "Everyone has a favorite smoothie", "People own unique car models", "music genres", "names"], "rows": [["1", "Arnold", "pizza", "april", "cherry", "toyota camry", "pop", "arnold"], ["2", "Peter", "grilled cheese", "jan", "watermelon", "ford f150", "classical", "january"], ["3", "Eric", "spaghetti", "sept", "desert", "tesla model 3", "rock", "tesla"]]}",1801
+lgp-test-4x3-33,"{"header": ["House", "unique name", "unique for lunch", "animals", "names"], "rows": [["1", "Arnold", "spaghetti", "horse", "eric"], ["2", "Alice", "pizza", "bird", "arnold"], ["3", "Eric", "stew", "fish", "alice"], ["4", "Peter", "grilled cheese", "cat", "peter"]]}",3238
+lgp-test-2x6-7,"{"header": ["House", "unique name", "unique hobby", "unique phone models", "Each mother is accompanied by their child", "animals", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Arnold", "photography", "iphone 13", "Bella", "cat", "beach", "fred"], ["2", "Eric", "gardening", "samsung galaxy s21", "Fred", "horse", "mountain", "arnold"]]}",25
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x6-15,"{"header": ["House", "unique name", "occupation", "unique for lunch", "unique favorite drink", "unique hobby", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "doctor", "pizza", "water", "gardening", "Fred", "eric"], ["2", "Arnold", "engineer", "grilled cheese", "tea", "photography", "Bella", "fred"]]}",20
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x3-23,"{"header": ["House", "unique name", "animals", "unique phone models", "names"], "rows": [["1", "Bob", "horse", "oneplus 9", "bob"], ["2", "Eric", "dog", "iphone 13", "huawei"], ["3", "Alice", "cat", "huawei p50", "alice"], ["4", "Arnold", "fish", "google pixel 6", "pixel"], ["5", "Peter", "bird", "samsung galaxy s21", "eric"]]}",31
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-14,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Peter", "Bella", "peter"], ["2", "Eric", "Fred", "eric"], ["3", "Arnold", "Meredith", "arnold"]]}",13
+lgp-test-3x6-3,"{"header": ["House", "unique name", "unique birthday month", "unique hobby", "unique for lunch", "book genres", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "sept", "photography", "grilled cheese", "science fiction", "Janelle", "april"], ["2", "Peter", "jan", "cooking", "spaghetti", "romance", "Holly", "eric"], ["3", "Eric", "april", "gardening", "pizza", "mystery", "Aniya", "janelle"]]}",31
+lgp-test-3x6-19,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "animals", "Each mother is accompanied by their child", "book genres", "unique phone models", "names"], "rows": [["1", "Arnold", "pall mall", "horse", "Bella", "science fiction", "google pixel 6", "pall"], ["2", "Eric", "blue master", "cat", "Fred", "romance", "iphone 13", "eric"], ["3", "Peter", "prince", "bird", "Meredith", "mystery", "samsung galaxy s21", "fred"]]}",3155
+lgp-test-2x6-6,"{"header": ["House", "unique name", "favorite color", "Each person prefers a unique type of vacation", "People own unique car models", "Each mother is accompanied by their child", "unique level of education", "names"], "rows": [["1", "Arnold", "yellow", "beach", "ford f150", "Fred", "high school", "fred"], ["2", "Eric", "red", "mountain", "tesla model 3", "Bella", "associate", "ford"]]}",17
+lgp-test-3x6-13,"{"header": ["House", "unique name", "nationalities", "The mothers' names in different houses are unique", "sports", "occupation", "music genres", "names"], "rows": [["1", "Arnold", "brit", "Janelle", "basketball", "engineer", "classical", "eric"], ["2", "Eric", "dane", "Aniya", "tennis", "teacher", "pop", "dane"], ["3", "Peter", "swede", "Holly", "soccer", "doctor", "rock", "arnold"]]}",30
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-23,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "People own unique car models", "People have unique heights", "names"], "rows": [["1", "Eric", "Aniya", "ford f150", "short", "tesla"], ["2", "Arnold", "Holly", "tesla model 3", "very short", "holly"]]}",13
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-1,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "unique birthday month", "music genres", "names"], "rows": [["1", "Eric", "colonial", "april", "rock", "april"], ["2", "Arnold", "victorian", "sept", "pop", "september"]]}",24
+lgp-test-3x4-16,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "sports", "unique birthday month", "names"], "rows": [["1", "Arnold", "beach", "soccer", "april", "april"], ["2", "Eric", "city", "tennis", "jan", "january"], ["3", "Peter", "mountain", "basketball", "sept", "there"]]}",47
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-33,"{"header": ["House", "unique name", "unique favorite drink", "names"], "rows": [["1", "Eric", "water", "peter"], ["2", "Peter", "milk", "arnold"], ["3", "Arnold", "tea", "eric"]]}",138
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-10,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "book genres", "unique type of pet", "Everyone has a unique favorite cigar", "unique hobby", "names"], "rows": [["1", "Peter", "colonial", "science fiction", "cat", "prince", "cooking", "master"], ["2", "Arnold", "victorian", "mystery", "fish", "blue master", "photography", "pall"], ["3", "Eric", "ranch", "romance", "dog", "pall mall", "gardening", "mall"]]}",24428
+lgp-test-6x4-2,"{"header": ["House", "unique name", "People have unique heights", "unique phone models", "Each mother is accompanied by their child", "names"], "rows": [["1", "Carol", "super tall", "google pixel 6", "Fred", "xiaomi"], ["2", "Bob", "tall", "iphone 13", "Timothy", "alice"], ["3", "Eric", "very short", "samsung galaxy s21", "Alice", "carol"], ["4", "Alice", "average", "xiaomi mi 11", "Bella", "samsung"], ["5", "Peter", "short", "oneplus 9", "Meredith", "meredith"], ["6", "Arnold", "very tall", "huawei p50", "Samantha", "arnold"]]}",128
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-33,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Alice", "pall mall", "arnold"], ["2", "Bob", "prince", "blue"], ["3", "Peter", "blends", "prince"], ["4", "Eric", "blue master", "dunhill"], ["5", "Arnold", "dunhill", "eric"]]}",8940
+lgp-test-5x3-3,"{"header": ["House", "unique name", "unique birthday month", "animals", "names"], "rows": [["1", "Alice", "sept", "horse", "september"], ["2", "Peter", "mar", "bird", "bob"], ["3", "Eric", "april", "dog", "january"], ["4", "Arnold", "feb", "fish", "march"], ["5", "Bob", "jan", "cat", "february"]]}",26
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x4-20,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique type of pet", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "prince", "cat", "Janelle", "aniya"], ["2", "Eric", "pall mall", "fish", "Holly", "blue"], ["3", "Peter", "blue master", "dog", "Aniya", "peter"]]}",62
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-0,"{"header": ["House", "unique name", "People have unique hair colors", "unique for lunch", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "brown", "grilled cheese", "pall mall", "eric"], ["2", "Eric", "black", "pizza", "prince", "prince"]]}",13
+lgp-test-3x6-27,"{"header": ["House", "unique name", "book genres", "Each mother is accompanied by their child", "People have unique hair colors", "unique level of education", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "science fiction", "Bella", "black", "associate", "daffodils", "peter"], ["2", "Eric", "mystery", "Fred", "brown", "high school", "lilies", "bella"], ["3", "Peter", "romance", "Meredith", "blonde", "bachelor", "carnations", "meredith"]]}",6660
+lgp-test-2x5-7,"{"header": ["House", "unique name", "occupation", "unique phone models", "nationalities", "unique hobby", "names"], "rows": [["1", "Eric", "doctor", "samsung galaxy s21", "dane", "photography", "eric"], ["2", "Arnold", "engineer", "iphone 13", "brit", "gardening", "arnold"]]}",149
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x3-4,"{"header": ["House", "unique name", "People have unique hair colors", "They all have a unique favorite flower", "names"], "rows": [["1", "", "", "", ""], ["2", "", "", "", ""]]}",0
+lgp-test-6x2-26,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "lime", "alice"], ["2", "Eric", "desert", "bob"], ["3", "Bob", "watermelon", "watermelon"], ["4", "Peter", "dragonfruit", "lime"], ["5", "Carol", "cherry", "desert"], ["6", "Alice", "blueberry", "blueberry"]]}",994
+lgp-test-3x3-30,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "People own unique car models", "names"], "rows": [["1", "Arnold", "Fred", "tesla model 3", "bella"], ["2", "Peter", "Meredith", "ford f150", "there"], ["3", "Eric", "Bella", "toyota camry", "tesla"]]}",16
+lgp-test-5x2-18,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "Timothy", "bob"], ["2", "Alice", "Meredith", "samantha"], ["3", "Peter", "Samantha", "fred"], ["4", "Bob", "Fred", "there"], ["5", "Arnold", "Bella", "eric"]]}",21
+lgp-test-3x5-32,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "unique hobby", "unique level of education", "unique phone models", "names"], "rows": [["1", "Arnold", "prince", "cooking", "high school", "samsung galaxy s21", "eric"], ["2", "Peter", "pall mall", "gardening", "bachelor", "iphone 13", "google"], ["3", "Eric", "blue master", "photography", "associate", "google pixel 6", "blue"]]}",22
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-7,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "music genres", "They all have a unique favorite flower", "People have unique heights", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Peter", "Holly", "classical", "carnations", "average", "prince", "peter"], ["2", "Arnold", "Janelle", "pop", "daffodils", "very short", "pall mall", "blue"], ["3", "Eric", "Aniya", "rock", "lilies", "short", "blue master", "pall"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x6-29,"{"header": ["House", "unique name", "animals", "unique birthday month", "unique hobby", "unique favorite drink", "People have unique hair colors", "names"], "rows": [["1", "Arnold", "bird", "jan", "photography", "water", "blonde", "april"], ["2", "Peter", "horse", "sept", "gardening", "milk", "black", "eric"], ["3", "Eric", "cat", "april", "cooking", "tea", "brown", "september"]]}",3319
+lgp-test-2x4-14,"{"header": ["House", "unique name", "Each person lives in a unique style of house", "Everyone has a favorite smoothie", "unique type of pet", "names"], "rows": [["1", "Eric", "victorian", "cherry", "dog", "cherry"], ["2", "Arnold", "colonial", "desert", "cat", "eric"]]}",13
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-24,"{"header": ["House", "unique name", "animals", "Each person prefers a unique type of vacation", "unique level of education", "Everyone has a favorite smoothie", "names"], "rows": [["1", "Arnold", "bird", "mountain", "associate", "desert", "eric"], ["2", "Eric", "horse", "city", "bachelor", "cherry", "cherry"], ["3", "Peter", "cat", "beach", "high school", "watermelon", "watermelon"]]}",64
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-39,"{"header": ["House", "unique name", "People own unique car models", "Everyone has a unique favorite cigar", "nationalities", "People have unique hair colors", "names"], "rows": [["1", "Arnold", "tesla model 3", "pall mall", "brit", "brown", "tesla"], ["2", "Eric", "ford f150", "prince", "dane", "black", "prince"]]}",15
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x5-28,"{"header": ["House", "unique name", "Everyone has a favorite smoothie", "Each person prefers a unique type of vacation", "nationalities", "sports", "names"], "rows": [["1", "Eric", "desert", "beach", "brit", "tennis", "desert"], ["2", "Peter", "cherry", "mountain", "dane", "basketball", "dane"], ["3", "Arnold", "watermelon", "city", "swede", "soccer", "peter"]]}",12744
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x4-34,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "Each mother is accompanied by their child", "book genres", "names"], "rows": [["1", "Alice", "Penny", "Samantha", "mystery", "janelle"], ["2", "Eric", "Holly", "Fred", "fantasy", "timothy"], ["3", "Peter", "Janelle", "Timothy", "biography", "bella"], ["4", "Bob", "Aniya", "Meredith", "science fiction", "arnold"], ["5", "Arnold", "Kailyn", "Bella", "romance", "fred"]]}",31
+lgp-test-2x6-3,"{"header": ["House", "unique name", "The mothers' names in different houses are unique", "unique favorite drink", "unique type of pet", "occupation", "They all have a unique favorite flower", "names"], "rows": [["1", "Eric", "Aniya", "tea", "dog", "engineer", "carnations", "aniya"], ["2", "Arnold", "Holly", "water", "cat", "doctor", "daffodils", "eric"]]}",60
+lgp-test-6x2-25,"{"header": ["House", "unique name", "unique for lunch", "names"], "rows": [["1", "Peter", "pizza", "carol"], ["2", "Bob", "stew", "eric"], ["3", "Carol", "stir fry", "peter"], ["4", "Alice", "soup", "arnold"], ["5", "Arnold", "spaghetti", "bob"], ["6", "Eric", "grilled cheese", "alice"]]}",10139
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x2-6,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Eric", "samsung galaxy s21", "samsung"], ["2", "Arnold", "iphone 13", "eric"]]}",9
+,"{"header": ["House"], "rows": []}",0
+lgp-test-6x2-28,"{"header": ["House", "unique name", "Each mother is accompanied by their child", "names"], "rows": [["1", "Eric", "Bella", "bella"], ["2", "Arnold", "Fred", "peter"], ["3", "Carol", "Timothy", "bob"], ["4", "Alice", "Alice", "alice"], ["5", "Bob", "Meredith", "timothy"], ["6", "Peter", "Samantha", "carol"]]}",25
+,"{"header": ["House"], "rows": []}",0
+lgp-test-5x2-3,"{"header": ["House", "unique name", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "dunhill", "alice"], ["2", "Eric", "blue master", "eric"], ["3", "Bob", "prince", "pall"], ["4", "Alice", "blends", "there"], ["5", "Peter", "pall mall", "prince"]]}",21
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-3x2-3,"{"header": ["House", "unique name", "Each person prefers a unique type of vacation", "names"], "rows": [["1", "Arnold", "beach", "peter"], ["2", "Peter", "mountain", "eric"], ["3", "Eric", "city", "arnold"]]}",23
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x4-37,"{"header": ["House", "unique name", "They all have a unique favorite flower", "Each person lives in a unique style of house", "Everyone has a unique favorite cigar", "names"], "rows": [["1", "Arnold", "roses", "victorian", "prince", "master"], ["2", "Alice", "carnations", "craftsman", "dunhill", "victorian"], ["3", "Peter", "daffodils", "colonial", "blue master", "there"], ["4", "Eric", "lilies", "ranch", "pall mall", "prince"]]}",32088
+lgp-test-3x2-38,"{"header": ["House", "unique name", "unique phone models", "names"], "rows": [["1", "Arnold", "google pixel 6", "eric"], ["2", "Eric", "samsung galaxy s21", "peter"], ["3", "Peter", "iphone 13", "pixel"]]}",17
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-15,"{"header": ["House", "unique name", "occupation", "Each person lives in a unique style of house", "animals", "names"], "rows": [["1", "Arnold", "doctor", "colonial", "horse", "victorian"], ["2", "Eric", "engineer", "victorian", "cat", "arnold"]]}",24
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x2-32,"{"header": ["House", "unique name", "unique type of pet", "names"], "rows": [["1", "Peter", "bird", "eric"], ["2", "Arnold", "fish", "there"], ["3", "Eric", "cat", "alice"], ["4", "Alice", "dog", "peter"]]}",442
+lgp-test-5x2-4,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Peter", "german", "british"], ["2", "Eric", "swede", "swedish"], ["3", "Arnold", "brit", "eric"], ["4", "Bob", "norwegian", "alice"], ["5", "Alice", "dane", "bob"]]}",37
+,"{"header": ["House"], "rows": []}",0
+lgp-test-4x5-38,"{"header": ["House", "unique name", "sports", "unique phone models", "People own unique car models", "They all have a unique favorite flower", "names"], "rows": [["1", "Arnold", "basketball", "oneplus 9", "toyota camry", "roses", "honda"], ["2", "Eric", "soccer", "google pixel 6", "ford f150", "daffodils", "google"], ["3", "Peter", "swimming", "samsung galaxy s21", "tesla model 3", "lilies", "eric"], ["4", "Alice", "tennis", "iphone 13", "honda civic", "carnations", "alice"]]}",29
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-24,"{"header": ["House", "unique name", "unique hobby", "music genres", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Eric", "gardening", "rock", "Holly", "eric"], ["2", "Arnold", "photography", "pop", "Aniya", "holly"]]}",13
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x5-22,"{"header": ["House", "unique name", "music genres", "favorite color", "sports", "People have unique hair colors", "names"], "rows": [["1", "Eric", "pop", "red", "basketball", "black", "arnold"], ["2", "Arnold", "rock", "yellow", "soccer", "brown", "eric"]]}",47
+lgp-test-3x2-28,"{"header": ["House", "unique name", "nationalities", "names"], "rows": [["1", "Arnold", "brit", "peter"], ["2", "Eric", "dane", "eric"], ["3", "Peter", "swede", "dane"]]}",13
+lgp-test-3x3-10,"{"header": ["House", "unique name", "unique favorite drink", "unique hobby", "names"], "rows": [["1", "Eric", "tea", "cooking", "peter"], ["2", "Peter", "milk", "photography", "arnold"], ["3", "Arnold", "water", "gardening", "eric"]]}",398
+lgp-test-3x4-1,"{"header": ["House", "unique name", "animals", "Everyone has a unique favorite cigar", "The mothers' names in different houses are unique", "names"], "rows": [["1", "Arnold", "horse", "pall mall", "Aniya", "pall"], ["2", "Peter", "bird", "blue master", "Holly", "arnold"], ["3", "Eric", "cat", "prince", "Janelle", "eric"]]}",343
+lgp-test-5x5-39,"{"header": ["House", "unique name", "unique birthday month", "The mothers' names in different houses are unique", "occupation", "People have unique hair colors", "names"], "rows": [["1", "Alice", "mar", "Holly", "engineer", "red", "march"], ["2", "Eric", "april", "Janelle", "doctor", "blonde", "february"], ["3", "Bob", "sept", "Kailyn", "lawyer", "black", "janelle"], ["4", "Peter", "feb", "Penny", "artist", "brown", "september"], ["5", "Arnold", "jan", "Aniya", "teacher", "gray", "alice"]]}",70
+,"{"header": ["House"], "rows": []}",0
+lgp-test-2x4-34,"{"header": ["House", "unique name", "unique phone models", "occupation", "favorite color", "names"], "rows": [["1", "Eric", "samsung galaxy s21", "engineer", "yellow", "eric"], ["2", "Arnold", "iphone 13", "doctor", "red", "galaxy"]]}",29
+,"{"header": ["House"], "rows": []}",0

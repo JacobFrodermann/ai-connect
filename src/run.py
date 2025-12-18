@@ -54,10 +54,10 @@ def main():
 	rawProblems = pd.Series(dtype=object)
 
 	if args.grid_mode:
-		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas().head(1)
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas().head(100)
 		rawProblems = df.apply(readGridMode , axis=1)
 	elif args.multiple_choice:
-		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "puzzle", "question", "choices"]).to_pandas().head(1)
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "puzzle", "question", "choices"]).to_pandas().head(100)
 		rawProblems = df.apply(readMC , axis=1)
 
 	parser = Parser()
