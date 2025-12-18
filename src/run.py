@@ -22,7 +22,7 @@ def read_row_from_parquet(path: str, row_index: int):
 def readGridMode(row) -> RawProblem:
 	return RawProblem(row["id"], row["puzzle"], size=row["size"])
 def readMC(row) -> RawProblem :
-	return  RawProblem(row["id"], row["text"], size=row["size"], question=row["question"], choiches=row["choiches"])
+	return  RawProblem(row["id"], row["puzzle"], question=row["question"], choiches=row["choices"])
 
 def answerGridMode(sol: Solution):
     header = list(sol.entities)
@@ -52,16 +52,22 @@ def main():
 
 	df = pd.DataFrame()
 	rawProblems = pd.Series(dtype=object)
-	if (args.grid_mode):
-		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas()
+
+	print(args.grid_mode)
+	print(args.multiple_choice)
+
+	if args.grid_mode:
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "size", "puzzle", "solution"]).to_pandas().head(1)
 		rawProblems = df.apply(readGridMode , axis=1)
-	elif (args.multiple_choice):
-		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "text", "size", "question", "choiches"]).to_pandas()
+	elif args.multiple_choice:
+		df: pd.DataFrame = pq.read_table(args.file, columns=["id", "puzzle", "question", "choices"]).to_pandas()
 		rawProblems = df.apply(readMC , axis=1)
 
 	parser = Parser()
 
 	parsedProblems = rawProblems.apply(lambda raw: parser.parseGridmode(raw) if args.grid_mode else parser.parseMultipleChoice(raw))
+
+	print(len(parsedProblems))
 
 	solver = Solver()
 
@@ -69,7 +75,7 @@ def main():
 
 
 	if args.grid_mode:
-		solutions.apply(answerGridMode, axis=1)
+		solutions.apply(answerGridMode)
 
 if __name__ == "__main__":
 	main()

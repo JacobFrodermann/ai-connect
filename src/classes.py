@@ -34,7 +34,7 @@ class RawProblem:
     question: str
     choiches: str
 
-    def __init__(self, id: str, text: str, size: str, question: str = "", choiches: str = ""):
+    def __init__(self, id: str, text: str, size: str = "", question: str = "", choiches: str = ""):
         self.ID = id
         self.text = text
         self.size = size
